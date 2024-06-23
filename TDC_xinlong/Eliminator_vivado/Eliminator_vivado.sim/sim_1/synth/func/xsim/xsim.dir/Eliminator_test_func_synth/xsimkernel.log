@@ -1,7 +1,0 @@
-Running: xsim.dir/Eliminator_test_func_synth/xsimk.exe -simmode gui -wdb Eliminator_test_func_synth.wdb -simrunnum 0 -socket 52089
-Design successfully loaded
-Design Loading Memory Usage: 7544 KB (Peak: 7544 KB)
-Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 8084 KB (Peak: 8084 KB)
-Simulation CPU Usage: 31 ms

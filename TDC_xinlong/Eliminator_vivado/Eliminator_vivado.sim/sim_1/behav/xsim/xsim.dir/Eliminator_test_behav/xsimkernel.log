@@ -1,7 +1,0 @@
-Running: xsim.dir/Eliminator_test_behav/xsimk.exe -simmode gui -wdb Eliminator_test_behav.wdb -simrunnum 0 -socket 50999
-Design successfully loaded
-Design Loading Memory Usage: 7312 KB (Peak: 7312 KB)
-Design Loading CPU Usage: 62 ms
-Simulation completed
-Simulation Memory Usage: 7788 KB (Peak: 7788 KB)
-Simulation CPU Usage: 77 ms

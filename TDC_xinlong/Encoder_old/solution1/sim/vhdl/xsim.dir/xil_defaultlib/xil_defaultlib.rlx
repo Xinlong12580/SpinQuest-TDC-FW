@@ -1,7 +1,0 @@
-0.7
-2020.2
-Oct 13 2023
-20:47:58
-D:/work_directory/TDC/Encoder/solution1/sim/vhdl/AESL_sim_pkg.vhd,1713988170,vhdl,,,,aesl_sim_components,,axi_protocol_checker_v1_1_12;axi_protocol_checker_v1_1_13;axis_protocol_checker_v1_1_11;axis_protocol_checker_v1_1_12;floating_point_v7_0_21;floating_point_v7_1_16;ieee_proposed=./ieee_proposed;smartconnect_v1_0;unisims;unisims_ver;xil_defaultlib;xpm,,,,,,
-D:/work_directory/TDC/Encoder/solution1/sim/vhdl/encoder.autotb.vhd,1713988170,vhdl,,,,apatb_encoder_top,,axi_protocol_checker_v1_1_12;axi_protocol_checker_v1_1_13;axis_protocol_checker_v1_1_11;axis_protocol_checker_v1_1_12;floating_point_v7_0_21;floating_point_v7_1_16;ieee_proposed=./ieee_proposed;smartconnect_v1_0;unisims;unisims_ver;xil_defaultlib;xpm,,,,,,
-D:/work_directory/TDC/Encoder/solution1/sim/vhdl/encoder.vhd,1713987594,vhdl,,,,encoder,,axi_protocol_checker_v1_1_12;axi_protocol_checker_v1_1_13;axis_protocol_checker_v1_1_11;axis_protocol_checker_v1_1_12;floating_point_v7_0_21;floating_point_v7_1_16;ieee_proposed=./ieee_proposed;smartconnect_v1_0;unisims;unisims_ver;xil_defaultlib;xpm,,,,,,
