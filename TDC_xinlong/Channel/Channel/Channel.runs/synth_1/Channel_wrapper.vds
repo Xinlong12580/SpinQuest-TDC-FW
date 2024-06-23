@@ -1,0 +1,241 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Jun 23 11:13:15 2024
+# Process ID: 19856
+# Current directory: D:/work_directory/TDC/Channel/Channel/Channel.runs/synth_1
+# Command line: vivado.exe -log Channel_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Channel_wrapper.tcl
+# Log file: D:/work_directory/TDC/Channel/Channel/Channel.runs/synth_1/Channel_wrapper.vds
+# Journal file: D:/work_directory/TDC/Channel/Channel/Channel.runs/synth_1\vivado.jou
+# Running On: LAPTOP-UQD20HRI, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16952 MB
+#-----------------------------------------------------------
+source Channel_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/work_directory/TDC/IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2023.2/data/ip'.
+Command: synth_design -top Channel_wrapper -part xck26-sfvc784-2LV-c
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 20376
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1880.758 ; gain = 380.535
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Channel_wrapper' [d:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/hdl/Channel_wrapper.vhd:35]
+INFO: [Synth 8-3491] module 'Channel' declared at 'd:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/synth/Channel.vhd:15' bound to instance 'Channel_i' of component 'Channel' [d:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/hdl/Channel_wrapper.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'Channel' [d:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/synth/Channel.vhd:39]
+INFO: [Synth 8-3491] module 'Channel_Eliminator_0_0' declared at 'D:/work_directory/TDC/Channel/Channel/Channel.runs/synth_1/.Xil/Vivado-19856-LAPTOP-UQD20HRI/realtime/Channel_Eliminator_0_0_stub.vhdl:6' bound to instance 'Eliminator_0' of component 'Channel_Eliminator_0_0' [d:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/synth/Channel.vhd:123]
+INFO: [Synth 8-638] synthesizing module 'Channel_Eliminator_0_0' [D:/work_directory/TDC/Channel/Channel/Channel.runs/synth_1/.Xil/Vivado-19856-LAPTOP-UQD20HRI/realtime/Channel_Eliminator_0_0_stub.vhdl:22]
+INFO: [Synth 8-3491] module 'Channel_Encoder_0_0' declared at 'D:/work_directory/TDC/Channel/Channel/Channel.runs/synth_1/.Xil/Vivado-19856-LAPTOP-UQD20HRI/realtime/Channel_Encoder_0_0_stub.vhdl:6' bound to instance 'Encoder_0' of component 'Channel_Encoder_0_0' [d:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/synth/Channel.vhd:136]
+INFO: [Synth 8-638] synthesizing module 'Channel_Encoder_0_0' [D:/work_directory/TDC/Channel/Channel/Channel.runs/synth_1/.Xil/Vivado-19856-LAPTOP-UQD20HRI/realtime/Channel_Encoder_0_0_stub.vhdl:19]
+INFO: [Synth 8-3491] module 'Channel_Main_Counter_0_0' declared at 'D:/work_directory/TDC/Channel/Channel/Channel.runs/synth_1/.Xil/Vivado-19856-LAPTOP-UQD20HRI/realtime/Channel_Main_Counter_0_0_stub.vhdl:6' bound to instance 'Main_Counter_0' of component 'Channel_Main_Counter_0_0' [d:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/synth/Channel.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'Channel_Main_Counter_0_0' [D:/work_directory/TDC/Channel/Channel/Channel.runs/synth_1/.Xil/Vivado-19856-LAPTOP-UQD20HRI/realtime/Channel_Main_Counter_0_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'Channel_Pipe_0_0' declared at 'D:/work_directory/TDC/Channel/Channel/Channel.runs/synth_1/.Xil/Vivado-19856-LAPTOP-UQD20HRI/realtime/Channel_Pipe_0_0_stub.vhdl:6' bound to instance 'Pipe_0' of component 'Channel_Pipe_0_0' [d:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/synth/Channel.vhd:152]
+INFO: [Synth 8-638] synthesizing module 'Channel_Pipe_0_0' [D:/work_directory/TDC/Channel/Channel/Channel.runs/synth_1/.Xil/Vivado-19856-LAPTOP-UQD20HRI/realtime/Channel_Pipe_0_0_stub.vhdl:23]
+INFO: [Synth 8-256] done synthesizing module 'Channel' (0#1) [d:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/synth/Channel.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Channel_wrapper' (0#1) [d:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/hdl/Channel_wrapper.vhd:35]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1992.672 ; gain = 492.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1992.672 ; gain = 492.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1992.672 ; gain = 492.449
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1992.672 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/ip/Channel_Main_Counter_0_0/Channel_Main_Counter_0_0/Channel_Main_Counter_0_0_in_context.xdc] for cell 'Channel_i/Main_Counter_0'
+Finished Parsing XDC File [d:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/ip/Channel_Main_Counter_0_0/Channel_Main_Counter_0_0/Channel_Main_Counter_0_0_in_context.xdc] for cell 'Channel_i/Main_Counter_0'
+Parsing XDC File [d:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/ip/Channel_Encoder_0_0/Channel_Encoder_0_0/Channel_Encoder_0_0_in_context.xdc] for cell 'Channel_i/Encoder_0'
+Finished Parsing XDC File [d:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/ip/Channel_Encoder_0_0/Channel_Encoder_0_0/Channel_Encoder_0_0_in_context.xdc] for cell 'Channel_i/Encoder_0'
+Parsing XDC File [d:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/ip/Channel_Eliminator_0_0/Channel_Eliminator_0_0/Channel_Eliminator_0_0_in_context.xdc] for cell 'Channel_i/Eliminator_0'
+Finished Parsing XDC File [d:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/ip/Channel_Eliminator_0_0/Channel_Eliminator_0_0/Channel_Eliminator_0_0_in_context.xdc] for cell 'Channel_i/Eliminator_0'
+Parsing XDC File [d:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/ip/Channel_Pipe_0_0/Channel_Pipe_0_0/Channel_Pipe_0_0_in_context.xdc] for cell 'Channel_i/Pipe_0'
+Finished Parsing XDC File [d:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/ip/Channel_Pipe_0_0/Channel_Pipe_0_0/Channel_Pipe_0_0_in_context.xdc] for cell 'Channel_i/Pipe_0'
+Parsing XDC File [D:/work_directory/TDC/Channel/Channel/Channel.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/work_directory/TDC/Channel/Channel/Channel.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2011.699 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2011.699 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2011.699 ; gain = 511.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xck26-sfvc784-2LV-c
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2011.699 ; gain = 511.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for Channel_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Channel_i/Main_Counter_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Channel_i/Encoder_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Channel_i/Eliminator_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Channel_i/Pipe_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2011.699 ; gain = 511.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2011.699 ; gain = 511.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1248 (col length:96)
+BRAMs: 288 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2011.699 ; gain = 511.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 2533.613 ; gain = 1033.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 2533.613 ; gain = 1033.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 2543.203 ; gain = 1042.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2558.992 ; gain = 1058.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2558.992 ; gain = 1058.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2558.992 ; gain = 1058.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2558.992 ; gain = 1058.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2558.992 ; gain = 1058.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2558.992 ; gain = 1058.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-------------------------+----------+
+|      |BlackBox name            |Instances |
++------+-------------------------+----------+
+|1     |Channel_Eliminator_0_0   |         1|
+|2     |Channel_Encoder_0_0      |         1|
+|3     |Channel_Main_Counter_0_0 |         1|
+|4     |Channel_Pipe_0_0         |         1|
++------+-------------------------+----------+
+
+Report Cell Usage: 
++------+------------------------------+------+
+|      |Cell                          |Count |
++------+------------------------------+------+
+|1     |Channel_Eliminator_0_0_bbox   |     1|
+|2     |Channel_Encoder_0_0_bbox      |     1|
+|3     |Channel_Main_Counter_0_0_bbox |     1|
+|4     |Channel_Pipe_0_0_bbox         |     1|
+|5     |IBUF                          |    25|
+|6     |OBUF                          |    45|
++------+------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2558.992 ; gain = 1058.770
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 2558.992 ; gain = 1039.742
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2558.992 ; gain = 1058.770
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2571.000 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 25 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2598.426 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 25 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 25 instances
+
+Synth Design complete | Checksum: 795d330c
+INFO: [Common 17-83] Releasing license: Synthesis
+31 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.statsThreshold
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2598.426 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/work_directory/TDC/Channel/Channel/Channel.runs/synth_1/Channel_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Channel_wrapper_utilization_synth.rpt -pb Channel_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Jun 23 11:14:07 2024...

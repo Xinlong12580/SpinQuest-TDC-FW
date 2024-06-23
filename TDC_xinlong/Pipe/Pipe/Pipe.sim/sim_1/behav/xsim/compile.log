@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/work_directory/TDC/Pipe/Pipe/Pipe.srcs/sim_1/new/Pipe.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Pipe'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/work_directory/test/project_6/project_6.srcs/sim_1/new/tb_fifo.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_fifo'

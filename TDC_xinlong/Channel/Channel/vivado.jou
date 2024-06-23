@@ -1,0 +1,102 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Jun 23 11:37:52 2024
+# Process ID: 1508
+# Current directory: D:/work_directory/TDC/Channel/Channel
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1452 D:\work_directory\TDC\Channel\Channel\Channel.xpr
+# Log file: D:/work_directory/TDC/Channel/Channel/vivado.log
+# Journal file: D:/work_directory/TDC/Channel/Channel\vivado.jou
+# Running On: LAPTOP-UQD20HRI, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16952 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/work_directory/TDC/Channel/Channel/Channel.xpr
+update_compile_order -fileset sources_1
+launch_simulation -mode post-synthesis -type timing
+source tb_channel.tcl
+current_wave_config {Untitled 1}
+add_wave {{/tb_channel/cha/Channel_i/Eliminator_0}} 
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation -mode post-synthesis -type timing
+source tb_channel.tcl
+current_wave_config {Untitled 2}
+add_wave {{/tb_channel/cha/Channel_i/Eliminator_0}} 
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation -mode post-synthesis -type timing
+source tb_channel.tcl
+current_wave_config {Untitled 3}
+add_wave {{/tb_channel/cha/Channel_i/Eliminator_0}} 
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+launch_simulation
+source tb_channel.tcl
+current_sim simulation_3
+close_sim
+launch_simulation -mode post-synthesis -type timing
+close_sim
+launch_simulation -mode post-synthesis -type timing
+source tb_channel.tcl
+current_wave_config {Untitled 5}
+add_wave {{/tb_channel/cha/Channel_i/Eliminator_0}} 
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation -mode post-synthesis -type timing
+source tb_channel.tcl
+current_wave_config {Untitled 6}
+add_wave {{/tb_channel/cha/Channel_i/Eliminator_0}} 
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+launch_simulation -mode post-implementation -type timing
+source tb_channel.tcl
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation -mode post-implementation -type timing
+source tb_channel.tcl
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+launch_simulation -mode post-implementation -type timing
+source tb_channel.tcl
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+current_sim simulation_6
+close_sim
+close_sim
+launch_simulation -mode post-implementation -type timing
+source tb_channel.tcl
+current_wave_config {Untitled 10}
+add_wave {{/tb_channel/cha/Channel_i/Eliminator_0}} 
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+current_wave_config {Untitled 10}
+add_wave {{/tb_channel/cha/Channel_i/Main_Counter_0}} 
+run 100 ns

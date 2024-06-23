@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Jun 22 16:02:26 2024
+# Process ID: 3948
+# Current directory: D:/work_directory/TDC/Eliminator/Eliminator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10484 D:\work_directory\TDC\Eliminator\Eliminator\Eliminator.xpr
+# Log file: D:/work_directory/TDC/Eliminator/Eliminator/vivado.log
+# Journal file: D:/work_directory/TDC/Eliminator/Eliminator\vivado.jou
+# Running On: LAPTOP-UQD20HRI, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16952 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/work_directory/TDC/Eliminator/Eliminator/Eliminator.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source Eliminator_test.tcl
+run 10 ns
+set_property -name {xsim.simulate.runtime} -value {100ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source Eliminator_test.tcl
+close_sim
+launch_simulation
+source Eliminator_test.tcl
+close_sim
+launch_simulation
+source Eliminator_test.tcl
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation -mode post-synthesis -type timing
+source Eliminator_test.tcl
+close_sim
+launch_simulation -mode post-synthesis -type timing

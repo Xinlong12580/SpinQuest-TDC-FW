@@ -1,0 +1,82 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_channel_behav xil_defaultlib.tb_channel xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'block_window' [D:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/ipshared/2cec/src/Elimilator_HVSENSITIVE.vhd:54]
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'block_width' [D:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/ipshared/2cec/src/Elimilator_HVSENSITIVE.vhd:55]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.Eliminator [eliminator_default]
+Compiling architecture channel_eliminator_0_0_arch of entity xil_defaultlib.Channel_Eliminator_0_0 [channel_eliminator_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.Encoder [encoder_default]
+Compiling architecture channel_encoder_0_0_arch of entity xil_defaultlib.Channel_Encoder_0_0 [channel_encoder_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.Main_Counter [main_counter_default]
+Compiling architecture channel_main_counter_0_0_arch of entity xil_defaultlib.Channel_Main_Counter_0_0 [channel_main_counter_0_0_default]
+Compiling architecture gnd_v of entity unisim.GND [gnd_default]
+Compiling architecture lut1_v of entity unisim.LUT1 [\LUT1(init="0001")(0,3)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1001010101101010")(0...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11010101001010101011...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10001111111111110111...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11110111111111110000...]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture structure of entity xil_defaultlib.Channel_Pipe_0_0_updn_cntr [channel_pipe_0_0_updn_cntr_defau...]
+Compiling architecture structure of entity xil_defaultlib.Channel_Pipe_0_0_dc_ss_fwft [channel_pipe_0_0_dc_ss_fwft_defa...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111111110010111000...]
+Compiling architecture fdse_v of entity unisim.FDSE [fdse_default]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1000")(0,3)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111001100100000")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0100010101010101")(0...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="10100010")(0,7)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000000011110111")(0...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="10111010")(0,7)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0010000011111111")(0...]
+Compiling architecture structure of entity xil_defaultlib.Channel_Pipe_0_0_rd_fwft [channel_pipe_0_0_rd_fwft_default]
+Compiling architecture structure of entity xil_defaultlib.Channel_Pipe_0_0_rd_status_flags_ss [channel_pipe_0_0_rd_status_flags...]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="0110")(0,3)\]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="01111000")(0,7)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0111111110000000")(0...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111000011111111...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10010000000010010000...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1001000000001001")(0...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00001111111111110000...]
+Compiling architecture structure of entity xil_defaultlib.Channel_Pipe_0_0_rd_bin_cntr [channel_pipe_0_0_rd_bin_cntr_def...]
+Compiling architecture structure of entity xil_defaultlib.Channel_Pipe_0_0_rd_logic [channel_pipe_0_0_rd_logic_defaul...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1011010001000100")(0...]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="0010")(0,3)\]
+Compiling architecture lut1_v of entity unisim.LUT1 [\LUT1(init="0010")(0,3)\]
+Compiling architecture structure of entity xil_defaultlib.Channel_Pipe_0_0_wr_status_flags_ss [channel_pipe_0_0_wr_status_flags...]
+Compiling architecture structure of entity xil_defaultlib.Channel_Pipe_0_0_wr_bin_cntr [channel_pipe_0_0_wr_bin_cntr_def...]
+Compiling architecture structure of entity xil_defaultlib.Channel_Pipe_0_0_wr_logic [channel_pipe_0_0_wr_logic_defaul...]
+Compiling architecture ram32m16_v of entity unisim.RAM32M16 [ram32m16_default]
+Compiling architecture ram32m_v of entity unisim.RAM32M [ram32m_default]
+Compiling architecture structure of entity xil_defaultlib.Channel_Pipe_0_0_dmem [channel_pipe_0_0_dmem_default]
+Compiling architecture structure of entity xil_defaultlib.Channel_Pipe_0_0_memory [channel_pipe_0_0_memory_default]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1110")(0,3)\]
+Compiling architecture fdre_v of entity unisim.FDRE [\FDRE(init='1')\]
+Compiling architecture structure of entity xil_defaultlib.Channel_Pipe_0_0_bram_fifo_rstlogic [channel_pipe_0_0_bram_fifo_rstlo...]
+Compiling architecture structure of entity xil_defaultlib.Channel_Pipe_0_0_reset_blk_ramfifo [channel_pipe_0_0_reset_blk_ramfi...]
+Compiling architecture structure of entity xil_defaultlib.Channel_Pipe_0_0_fifo_generator_ramfifo [channel_pipe_0_0_fifo_generator_...]
+Compiling architecture structure of entity xil_defaultlib.Channel_Pipe_0_0_fifo_generator_top [channel_pipe_0_0_fifo_generator_...]
+Compiling architecture structure of entity xil_defaultlib.Channel_Pipe_0_0_fifo_generator_v13_2_9_synth [channel_pipe_0_0_fifo_generator_...]
+Compiling architecture structure of entity xil_defaultlib.Channel_Pipe_0_0_fifo_generator_v13_2_9 [channel_pipe_0_0_fifo_generator_...]
+Compiling architecture structure of entity xil_defaultlib.Channel_Pipe_0_0_fifo_generator_0 [channel_pipe_0_0_fifo_generator_...]
+Compiling architecture structure of entity xil_defaultlib.Channel_Pipe_0_0_Pipe [channel_pipe_0_0_pipe_default]
+Compiling architecture structure of entity xil_defaultlib.Channel_Pipe_0_0 [channel_pipe_0_0_default]
+Compiling architecture structure of entity xil_defaultlib.Channel [channel_default]
+Compiling architecture structure of entity xil_defaultlib.Channel_wrapper [channel_wrapper_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_channel
+Built simulation snapshot tb_channel_behav

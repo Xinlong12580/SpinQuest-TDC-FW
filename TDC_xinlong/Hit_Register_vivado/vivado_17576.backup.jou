@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Jun 21 09:37:03 2024
+# Process ID: 17576
+# Current directory: D:/work_directory/TDC/Hit_Register_vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9016 D:\work_directory\TDC\Hit_Register_vivado\Eliminator_vivado.xpr
+# Log file: D:/work_directory/TDC/Hit_Register_vivado/vivado.log
+# Journal file: D:/work_directory/TDC/Hit_Register_vivado\vivado.jou
+# Running On: LAPTOP-UQD20HRI, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16952 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/work_directory/TDC/Hit_Register_vivado/Eliminator_vivado.xpr
+update_compile_order -fileset sources_1
+close_project
+create_project top_single_channel D:/work_directory/TDC/top_single_channel -part xck26-sfvc784-2LV-c
+set_property board_part xilinx.com:kr260_som:part0:1.1 [current_project]
+set_property target_language VHDL [current_project]
+set_property simulator_language VHDL [current_project]
+file mkdir D:/work_directory/TDC/top_single_channel/top_single_channel.srcs/sources_1/new
+close [ open D:/work_directory/TDC/top_single_channel/top_single_channel.srcs/sources_1/new/top_single_channel.vhd w ]
+add_files D:/work_directory/TDC/top_single_channel/top_single_channel.srcs/sources_1/new/top_single_channel.vhd
+update_compile_order -fileset sources_1

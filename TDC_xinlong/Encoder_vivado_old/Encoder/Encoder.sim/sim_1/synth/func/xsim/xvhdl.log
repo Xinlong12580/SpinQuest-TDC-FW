@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/work_directory/TDC/Encoder_vivado/Encoder/Encoder.sim/sim_1/synth/func/xsim/Encoder_test_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Encoder_interface_encoder_0_0_encoder'
+INFO: [VRFC 10-3107] analyzing entity 'Encoder_interface_encoder_0_0'
+INFO: [VRFC 10-3107] analyzing entity 'Encoder_interface'
+INFO: [VRFC 10-3107] analyzing entity 'Encoder_interface_wrapper'

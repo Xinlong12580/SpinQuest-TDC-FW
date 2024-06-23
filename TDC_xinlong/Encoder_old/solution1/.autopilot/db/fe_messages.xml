@@ -1,0 +1,30 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="D:/work_directory/TDC/Encoder/solution1/csynth.tcl:18:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="encoder" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=encoder" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="D:/work_directory/TDC/Encoder/solution1/directives.tcl:7:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="encoder" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=encoder" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Encoder/source/encoder.cpp:4:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="encoder" ARG_PragmaIsValid="1" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Encoder/source/encoder.cpp:15:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="assign" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Encoder/source/encoder.cpp:19:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="assign" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Encoder/source/encoder.cpp:12:0" msg_body="Unrolling loop 'VITIS_LOOP_18_2' (Encoder/source/encoder.cpp:18:19) in function 'assign' completely with a factor of 4">
+        <args Factor="4" LoopLoc="Encoder/source/encoder.cpp:18:19" LoopName="VITIS_LOOP_18_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Encoder/source/encoder.cpp:12:0" msg_body="Unrolling loop 'VITIS_LOOP_14_1' (Encoder/source/encoder.cpp:14:19) in function 'assign' completely with a factor of 12">
+        <args Factor="12" LoopLoc="Encoder/source/encoder.cpp:14:19" LoopName="VITIS_LOOP_14_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Encoder/source/encoder.cpp:3:0" msg_body="Inlining function 'encode_ther(ap_uint&lt;9&gt;)' into 'encoder(ap_uint&lt;12&gt;, ap_uint&lt;9&gt;)'">
+        <args Callee="encode_ther(ap_uint&lt;9&gt;)" Callee-DebugLoc="File Encoder/source/encoder.cpp Line 26 Column 0" Caller="encoder(ap_uint&lt;12&gt;, ap_uint&lt;9&gt;)" Caller-DebugLoc="File Encoder/source/encoder.cpp Line 3 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Encoder/source/encoder.cpp:3:0" msg_body="Inlining function 'assign(ap_uint&lt;12&gt;, ap_uint&lt;4&gt;)' into 'encoder(ap_uint&lt;12&gt;, ap_uint&lt;9&gt;)'">
+        <args Callee="assign(ap_uint&lt;12&gt;, ap_uint&lt;4&gt;)" Callee-DebugLoc="File Encoder/source/encoder.cpp Line 12 Column 0" Caller="encoder(ap_uint&lt;12&gt;, ap_uint&lt;9&gt;)" Caller-DebugLoc="File Encoder/source/encoder.cpp Line 3 Column 0"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

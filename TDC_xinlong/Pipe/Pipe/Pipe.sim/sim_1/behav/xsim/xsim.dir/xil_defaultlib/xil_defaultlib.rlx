@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+D:/work_directory/TDC/Pipe/Pipe/Pipe.gen/sources_1/ip/fifo_generator_0/fifo_generator_0_sim_netlist.vhdl,1719154550,vhdl,,,,fifo_generator_0;fifo_generator_0_bram_fifo_rstlogic;fifo_generator_0_dc_ss_fwft;fifo_generator_0_dmem;fifo_generator_0_fifo_generator_ramfifo;fifo_generator_0_fifo_generator_top;fifo_generator_0_fifo_generator_v13_2_9;fifo_generator_0_fifo_generator_v13_2_9_synth;fifo_generator_0_memory;fifo_generator_0_rd_bin_cntr;fifo_generator_0_rd_fwft;fifo_generator_0_rd_logic;fifo_generator_0_rd_status_flags_ss;fifo_generator_0_reset_blk_ramfifo;fifo_generator_0_updn_cntr;fifo_generator_0_wr_bin_cntr;fifo_generator_0_wr_logic;fifo_generator_0_wr_status_flags_ss,,,,,,,,
+D:/work_directory/TDC/Pipe/Pipe/Pipe.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+D:/work_directory/TDC/Pipe/Pipe/Pipe.srcs/sim_1/new/Pipe.vhd,1719158066,vhdl,,,,pipe,,,,,,,,
+D:/work_directory/test/project_6/project_6.srcs/sim_1/new/tb_fifo.vhd,1719157527,vhdl,,,,tb_fifo,,,,,,,,

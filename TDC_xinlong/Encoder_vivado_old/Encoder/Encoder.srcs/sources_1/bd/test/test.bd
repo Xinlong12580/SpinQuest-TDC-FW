@@ -1,0 +1,26 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../Encoder.gen/sources_1/bd/test",
+      "name": "test",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "encoder_0": ""
+    },
+    "components": {
+      "encoder_0": {
+        "vlnv": "xilinx.com:hls:encoder:1.0",
+        "ip_revision": "2113528625",
+        "xci_name": "test_encoder_0_0",
+        "xci_path": "ip\\test_encoder_0_0\\test_encoder_0_0.xci",
+        "inst_hier_path": "encoder_0"
+      }
+    }
+  }
+}

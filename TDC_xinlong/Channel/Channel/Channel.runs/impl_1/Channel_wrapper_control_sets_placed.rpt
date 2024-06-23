@@ -1,0 +1,91 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Sun Jun 23 11:52:59 2024
+| Host         : LAPTOP-UQD20HRI running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Channel_wrapper_control_sets_placed.rpt
+| Design       : Channel_wrapper
+| Device       : xck26
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    13 |
+|    Minimum number of control sets                        |    13 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    12 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    13 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     3 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     7 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              12 |            7 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              46 |           10 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             146 |           18 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+|   Clock Signal   |                                                                 Enable Signal                                                                 |                                        Set/Reset Signal                                        | Slice Load Count | Bel Load Count | Bels / Slice |
++------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFGCE | Channel_i/Pipe_0/U0/fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i_reg_0[0]                       | Channel_i/Pipe_0/U0/fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/g8serrst.usrst_inst/SR[0] |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFGCE | Channel_i/Pipe_0/U0/fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/ram_empty_fb_i_reg[0]                | Channel_i/Pipe_0/U0/fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/g8serrst.usrst_inst/SR[0] |                1 |              8 |         8.00 |
+|  clk_IBUF_BUFGCE | Channel_i/Pipe_0/U0/fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/E[0]                                         | Channel_i/Pipe_0/U0/fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/g8serrst.usrst_inst/SR[0] |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFGCE |                                                                                                                                               |                                                                                                |                7 |             12 |         1.71 |
+|  clk_IBUF_BUFGCE |                                                                                                                                               | Channel_i/Main_Counter_0/U0/counter_integer[11]_i_1_n_0                                        |                3 |             12 |         4.00 |
+|  clk_IBUF_BUFGCE |                                                                                                                                               | Channel_i/Pipe_0/U0/fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/g8serrst.usrst_inst/SR[0] |                2 |             12 |         6.00 |
+|  clk_IBUF_BUFGCE | Channel_i/Encoder_0/U0/encoded_data_buf                                                                                                       | rst_IBUF_inst/O                                                                                |                4 |             17 |         4.25 |
+|  clk_IBUF_BUFGCE |                                                                                                                                               | rst_IBUF_inst/O                                                                                |                7 |             22 |         3.14 |
+|  clk_IBUF_BUFGCE | Channel_i/Encoder_0/U0/raw_data_reg                                                                                                           | rst_IBUF_inst/O                                                                                |                6 |             22 |         3.67 |
+|  clk_IBUF_BUFGCE | Channel_i/Eliminator_0/U0/registered_data_buf[21]_i_1_n_0                                                                                     | rst_IBUF_inst/O                                                                                |                5 |             22 |         4.40 |
+|  clk_IBUF_BUFGCE | Channel_i/Pipe_0/U0/fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/E[0]                                 | Channel_i/Pipe_0/U0/fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/g8serrst.usrst_inst/SR[0] |                3 |             32 |        10.67 |
+|  clk_IBUF_BUFGCE | Channel_i/Pipe_0/U0/fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.curr_fwft_state_reg[1]_0[0] | Channel_i/Pipe_0/U0/fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/g8serrst.usrst_inst/SR[0] |                5 |             32 |         6.40 |
+|  clk_IBUF_BUFGCE | Channel_i/Pipe_0/U0/fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/E[0]                                         |                                                                                                |                3 |             40 |        13.33 |
++------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+
+

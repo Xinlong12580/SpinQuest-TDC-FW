@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Channel.gen/sources_1/bd/Channel/ipshared/3159/src/Main_Counter.vhd" \
+"../../../../Channel.gen/sources_1/bd/Channel/ip/Channel_Main_Counter_0_0/sim/Channel_Main_Counter_0_0.vhd" \
+"../../../../Channel.gen/sources_1/bd/Channel/ipshared/b2fb/src/Encoder.vhd" \
+"../../../../Channel.gen/sources_1/bd/Channel/ip/Channel_Encoder_0_0/sim/Channel_Encoder_0_0.vhd" \
+"../../../../Channel.gen/sources_1/bd/Channel/ipshared/2cec/src/Elimilator_HVSENSITIVE.vhd" \
+"../../../../Channel.gen/sources_1/bd/Channel/ip/Channel_Eliminator_0_0/sim/Channel_Eliminator_0_0.vhd" \
+"../../../../Channel.gen/sources_1/bd/Channel/ip/Channel_Pipe_0_0/Channel_Pipe_0_0_sim_netlist.vhdl" \
+"../../../../Channel.gen/sources_1/bd/Channel/sim/Channel.vhd" \
+"../../../../Channel.gen/sources_1/bd/Channel/hdl/Channel_wrapper.vhd" \
+"../../../../Channel.srcs/sim_1/new/tb_channel.vhd" \
+
+# Do not sort compile order
+nosort

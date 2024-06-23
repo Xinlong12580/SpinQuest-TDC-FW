@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Jun 22 17:27:07 2024
+# Process ID: 9528
+# Current directory: D:/work_directory/TDC/Eliminator/Eliminator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11852 D:\work_directory\TDC\Eliminator\Eliminator\Eliminator.xpr
+# Log file: D:/work_directory/TDC/Eliminator/Eliminator/vivado.log
+# Journal file: D:/work_directory/TDC/Eliminator/Eliminator\vivado.jou
+# Running On: LAPTOP-UQD20HRI, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16952 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/work_directory/TDC/Eliminator/Eliminator/Eliminator.xpr
+update_compile_order -fileset sources_1
+close_project
+create_project Main_Counter D:/work_directory/TDC/Main_Counter/Main_Counter -part xck26-sfvc784-2LV-c
+set_property board_part xilinx.com:kr260_som:part0:1.1 [current_project]
+set_property target_language VHDL [current_project]
+set_property simulator_language VHDL [current_project]
+file mkdir D:/work_directory/TDC/Main_Counter/Main_Counter/Main_Counter.srcs/sources_1/new
+close [ open D:/work_directory/TDC/Main_Counter/Main_Counter/Main_Counter.srcs/sources_1/new/Main_Counter.vhd w ]
+add_files D:/work_directory/TDC/Main_Counter/Main_Counter/Main_Counter.srcs/sources_1/new/Main_Counter.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir D:/work_directory/TDC/Main_Counter/Main_Counter/Main_Counter.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/work_directory/TDC/Main_Counter/Main_Counter/Main_Counter.srcs/sim_1/new/tb_main_counter.vhd w ]
+add_files -fileset sim_1 D:/work_directory/TDC/Main_Counter/Main_Counter/Main_Counter.srcs/sim_1/new/tb_main_counter.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1

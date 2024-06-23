@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"Eliminator_test_func_synth.vhd" \
+"../../../../../Eliminator_vivado.srcs/sim_1/new/Eliminator_test.vhd" \
+
+# Do not sort compile order
+nosort

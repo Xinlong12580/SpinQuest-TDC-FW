@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Jun 22 11:30:54 2024
+# Process ID: 1252
+# Current directory: D:/work_directory/TDC/Hit_Register_vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12876 D:\work_directory\TDC\Hit_Register_vivado\Eliminator_vivado.xpr
+# Log file: D:/work_directory/TDC/Hit_Register_vivado/vivado.log
+# Journal file: D:/work_directory/TDC/Hit_Register_vivado\vivado.jou
+# Running On: LAPTOP-UQD20HRI, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16952 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/work_directory/TDC/Hit_Register_vivado/Eliminator_vivado.xpr
+update_compile_order -fileset sources_1
+close_project
+create_project Eliminator D:/work_directory/TDC/Eliminator/Eliminator -part xck26-sfvc784-2LV-c
+set_property board_part xilinx.com:kr260_som:part0:1.1 [current_project]
+set_property target_language VHDL [current_project]
+set_property simulator_language VHDL [current_project]
+add_files -norecurse {D:/work_directory/TDC/Hit_Register_vivado/Eliminator_vivado.srcs/sim_1/new/Eliminator_test.vhd D:/work_directory/TDC/Hit_Register_vivado/Eliminator_vivado.srcs/sources_1/new/Elimilator_HVSENSITIVE.vhd}
+import_files -force -norecurse
+update_compile_order -fileset sources_1
+move_files -fileset sim_1 [get_files  D:/work_directory/TDC/Eliminator/Eliminator/Eliminator.srcs/sources_1/imports/Eliminator_vivado.srcs/sim_1/new/Eliminator_test.vhd]
+launch_simulation
+source Eliminator_test.tcl
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+open_project D:/work_directory/TDC/Eliminator_vivado/Eliminator_vivado.xpr
+update_compile_order -fileset sources_1
+close_project
+launch_simulation
+source Eliminator_test.tcl
+open_project D:/work_directory/TDC/Encoder/Encoder/Encoder.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+open_run impl_1
+launch_simulation -mode post-implementation -type timing

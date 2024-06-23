@@ -1,0 +1,15 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+D:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/hdl/Channel_wrapper.vhd,1719158543,vhdl,,,,channel_wrapper,,,,,,,,
+D:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/ip/Channel_Eliminator_0_0/sim/Channel_Eliminator_0_0.vhd,1719143857,vhdl,,,,channel_eliminator_0_0,,,,,,,,
+D:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/ip/Channel_Encoder_0_0/sim/Channel_Encoder_0_0.vhd,1719143856,vhdl,,,,channel_encoder_0_0,,,,,,,,
+D:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/ip/Channel_Main_Counter_0_0/sim/Channel_Main_Counter_0_0.vhd,1719143856,vhdl,,,,channel_main_counter_0_0,,,,,,,,
+D:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/ip/Channel_Pipe_0_0/Channel_Pipe_0_0_sim_netlist.vhdl,1719159185,vhdl,,,,channel_pipe_0_0;channel_pipe_0_0_bram_fifo_rstlogic;channel_pipe_0_0_dc_ss_fwft;channel_pipe_0_0_dmem;channel_pipe_0_0_fifo_generator_0;channel_pipe_0_0_fifo_generator_ramfifo;channel_pipe_0_0_fifo_generator_top;channel_pipe_0_0_fifo_generator_v13_2_9;channel_pipe_0_0_fifo_generator_v13_2_9_synth;channel_pipe_0_0_memory;channel_pipe_0_0_pipe;channel_pipe_0_0_rd_bin_cntr;channel_pipe_0_0_rd_fwft;channel_pipe_0_0_rd_logic;channel_pipe_0_0_rd_status_flags_ss;channel_pipe_0_0_reset_blk_ramfifo;channel_pipe_0_0_updn_cntr;channel_pipe_0_0_wr_bin_cntr;channel_pipe_0_0_wr_logic;channel_pipe_0_0_wr_status_flags_ss,,,,,,,,
+D:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/ipshared/2cec/src/Elimilator_HVSENSITIVE.vhd,1719143857,vhdl,,,,eliminator,,,,,,,,
+D:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/ipshared/3159/src/Main_Counter.vhd,1719143856,vhdl,,,,main_counter,,,,,,,,
+D:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/ipshared/b2fb/src/Encoder.vhd,1719143856,vhdl,,,,encoder,,,,,,,,
+D:/work_directory/TDC/Channel/Channel/Channel.gen/sources_1/bd/Channel/sim/Channel.vhd,1719158543,vhdl,,,,channel,,,,,,,,
+D:/work_directory/TDC/Channel/Channel/Channel.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+D:/work_directory/TDC/Channel/Channel/Channel.srcs/sim_1/new/tb_channel.vhd,1719161178,vhdl,,,,tb_channel,,,,,,,,

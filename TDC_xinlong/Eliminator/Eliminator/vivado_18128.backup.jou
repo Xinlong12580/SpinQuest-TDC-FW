@@ -1,0 +1,104 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Jun 22 17:10:37 2024
+# Process ID: 18128
+# Current directory: D:/work_directory/TDC/Eliminator/Eliminator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12056 D:\work_directory\TDC\Eliminator\Eliminator\Eliminator.xpr
+# Log file: D:/work_directory/TDC/Eliminator/Eliminator/vivado.log
+# Journal file: D:/work_directory/TDC/Eliminator/Eliminator\vivado.jou
+# Running On: LAPTOP-UQD20HRI, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16952 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/work_directory/TDC/Eliminator/Eliminator/Eliminator.xpr
+update_compile_order -fileset sources_1
+launch_simulation -mode post-synthesis -type timing
+source Eliminator_test.tcl
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+launch_simulation -mode post-implementation -type timing
+source Eliminator_test.tcl
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+close_sim
+close_sim
+close_project
+create_project Main_counter D:/work_directory/TDC/Main_counter/Main_counter -part xck26-sfvc784-2LV-c
+set_property board_part xilinx.com:kr260_som:part0:1.1 [current_project]
+set_property target_language VHDL [current_project]
+set_property simulator_language VHDL [current_project]

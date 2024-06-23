@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/work_directory/TDC/Eliminator_vivado/Eliminator_vivado.sim/sim_1/synth/timing/xsim/Eliminator_test_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Eliminator
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/work_directory/TDC/Eliminator_vivado/Eliminator_vivado.srcs/sim_1/new/Eliminator_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Eliminator_test'

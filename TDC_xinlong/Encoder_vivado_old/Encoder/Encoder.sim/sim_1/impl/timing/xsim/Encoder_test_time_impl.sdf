@@ -1,0 +1,757 @@
+(DELAYFILE 
+(SDFVERSION "3.0" )
+(DESIGN "Encoder_interface_wrapper")
+(DATE "Sat Apr 27 00:36:44 2024")
+(VENDOR "XILINX")
+(PROGRAM "Vivado")
+(VERSION "2023.2")
+(DIVIDER /)
+(TIMESCALE 1ps)
+(CELL 
+  (CELLTYPE "LUT5")
+  (INSTANCE Encoder_interface_i/encoder_0/U0/ap_return\[0\]_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I4 O (122.0:152.0:152.0) (122.0:152.0:152.0))
+      (IOPATH I3 O (95.0:118.0:118.0) (95.0:118.0:118.0))
+      (IOPATH I2 O (122.0:152.0:152.0) (122.0:152.0:152.0))
+      (IOPATH I1 O (121.0:150.0:150.0) (121.0:150.0:150.0))
+      (IOPATH I0 O (121.0:150.0:150.0) (121.0:150.0:150.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT6")
+  (INSTANCE Encoder_interface_i/encoder_0/U0/ap_return\[1\]_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I5 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I4 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT6")
+  (INSTANCE Encoder_interface_i/encoder_0/U0/ap_return\[1\]_INST_0_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I5 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I4 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT6")
+  (INSTANCE Encoder_interface_i/encoder_0/U0/ap_return\[2\]_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I5 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I4 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT6")
+  (INSTANCE Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I5 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I4 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT3")
+  (INSTANCE Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT3")
+  (INSTANCE Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I2 O (121.0:150.0:150.0) (121.0:150.0:150.0))
+      (IOPATH I1 O (122.0:152.0:152.0) (122.0:152.0:152.0))
+      (IOPATH I0 O (122.0:152.0:152.0) (122.0:152.0:152.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT3")
+  (INSTANCE Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_3)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT3")
+  (INSTANCE Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_4)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I2 O (122.0:152.0:152.0) (122.0:152.0:152.0))
+      (IOPATH I1 O (95.0:118.0:118.0) (95.0:118.0:118.0))
+      (IOPATH I0 O (121.0:150.0:150.0) (121.0:150.0:150.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT3")
+  (INSTANCE Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_5)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT3")
+  (INSTANCE Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_6)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[0\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2442.2:2598.2:2598.2) (2442.2:2598.2:2598.2))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[10\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2454.5:2610.6:2610.6) (2454.5:2610.6:2610.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[11\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2443.7:2599.6:2599.6) (2443.7:2599.6:2599.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[12\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2452.1:2608.1:2608.1) (2452.1:2608.1:2608.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[13\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2432.2:2588.1:2588.1) (2432.2:2588.1:2588.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[14\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2443.3:2599.2:2599.2) (2443.3:2599.2:2599.2))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[15\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2444.6:2600.6:2600.6) (2444.6:2600.6:2600.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[16\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2442.0:2597.9:2597.9) (2442.0:2597.9:2597.9))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[17\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2442.1:2598.0:2598.0) (2442.1:2598.0:2598.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[18\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2444.6:2600.6:2600.6) (2444.6:2600.6:2600.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[19\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2445.0:2601.0:2601.0) (2445.0:2601.0:2601.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[1\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2436.7:2592.7:2592.7) (2436.7:2592.7:2592.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[20\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2437.0:2593.0:2593.0) (2437.0:2593.0:2593.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[21\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2436.5:2592.4:2592.4) (2436.5:2592.4:2592.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[22\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2449.9:2606.0:2606.0) (2449.9:2606.0:2606.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[23\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2432.8:2588.7:2588.7) (2432.8:2588.7:2588.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[24\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2428.6:2584.4:2584.4) (2428.6:2584.4:2584.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[25\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2472.6:2628.8:2628.8) (2472.6:2628.8:2628.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[26\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2466.6:2622.9:2622.9) (2466.6:2622.9:2622.9))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[27\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2454.8:2610.9:2610.9) (2454.8:2610.9:2610.9))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[28\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2443.8:2599.8:2599.8) (2443.8:2599.8:2599.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[29\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2439.4:2595.3:2595.3) (2439.4:2595.3:2595.3))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[2\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2440.1:2596.1:2596.1) (2440.1:2596.1:2596.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[30\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2432.7:2588.5:2588.5) (2432.7:2588.5:2588.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[31\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2438.6:2594.5:2594.5) (2438.6:2594.5:2594.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[3\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2440.8:2596.8:2596.8) (2440.8:2596.8:2596.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[4\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2450.4:2606.5:2606.5) (2450.4:2606.5:2606.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[5\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2440.6:2596.5:2596.5) (2440.6:2596.5:2596.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[6\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2449.6:2605.7:2605.7) (2449.6:2605.7:2605.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[7\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2441.6:2597.6:2597.6) (2441.6:2597.6:2597.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[8\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2456.7:2612.9:2612.9) (2456.7:2612.9:2612.9))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ap_return_OBUF\[9\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2439.4:2595.3:2595.3) (2439.4:2595.3:2595.3))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE coarse_counter_IBUF\[0\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (814.6:948.0:948.0) (814.6:948.0:948.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE coarse_counter_IBUF\[10\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (800.0:933.2:933.2) (800.0:933.2:933.2))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE coarse_counter_IBUF\[11\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (816.7:950.1:950.1) (816.7:950.1:950.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE coarse_counter_IBUF\[1\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (807.9:941.2:941.2) (807.9:941.2:941.2))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE coarse_counter_IBUF\[2\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (803.7:937.0:937.0) (803.7:937.0:937.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE coarse_counter_IBUF\[3\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (800.2:933.4:933.4) (800.2:933.4:933.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE coarse_counter_IBUF\[4\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (800.1:933.4:933.4) (800.1:933.4:933.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE coarse_counter_IBUF\[5\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (789.3:922.4:922.4) (789.3:922.4:922.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE coarse_counter_IBUF\[6\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (804.9:938.2:938.2) (804.9:938.2:938.2))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE coarse_counter_IBUF\[7\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (808.6:941.9:941.9) (808.6:941.9:941.9))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE coarse_counter_IBUF\[8\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (821.5:954.9:954.9) (821.5:954.9:954.9))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE coarse_counter_IBUF\[9\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (801.8:935.1:935.1) (801.8:935.1:935.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE delay_chain_IBUF\[0\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (792.3:925.5:925.5) (792.3:925.5:925.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE delay_chain_IBUF\[1\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (815.6:949.0:949.0) (815.6:949.0:949.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE delay_chain_IBUF\[2\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (800.3:933.6:933.6) (800.3:933.6:933.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE delay_chain_IBUF\[3\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (821.5:954.9:954.9) (821.5:954.9:954.9))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE delay_chain_IBUF\[4\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (817.7:951.1:951.1) (817.7:951.1:951.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE delay_chain_IBUF\[5\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (820.7:954.1:954.1) (820.7:954.1:954.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE delay_chain_IBUF\[6\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (806.7:940.0:940.0) (806.7:940.0:940.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE delay_chain_IBUF\[7\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (825.8:959.3:959.3) (825.8:959.3:959.3))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE delay_chain_IBUF\[8\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (802.4:935.7:935.7) (802.4:935.7:935.7))
+    )
+  )
+)
+(CELL 
+    (CELLTYPE "Encoder_interface_wrapper")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+      (INTERCONNECT Encoder_interface_i/encoder_0/U0/ap_return\[0\]_INST_0/O ap_return_OBUF\[0\]_inst/I (2537.9:2974.9:2974.9) (2537.9:2974.9:2974.9))
+      (INTERCONNECT Encoder_interface_i/encoder_0/U0/ap_return\[1\]_INST_0/O ap_return_OBUF\[1\]_inst/I (2366.9:2766.9:2766.9) (2366.9:2766.9:2766.9))
+      (INTERCONNECT Encoder_interface_i/encoder_0/U0/ap_return\[1\]_INST_0_i_1/O Encoder_interface_i/encoder_0/U0/ap_return\[1\]_INST_0/I2 (532.4:648.4:648.4) (532.4:648.4:648.4))
+      (INTERCONNECT Encoder_interface_i/encoder_0/U0/ap_return\[2\]_INST_0/O ap_return_OBUF\[2\]_inst/I (2448.5:2862.5:2862.5) (2448.5:2862.5:2862.5))
+      (INTERCONNECT Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0/O ap_return_OBUF\[3\]_inst/I (2449.0:2861.0:2861.0) (2449.0:2861.0:2861.0))
+      (INTERCONNECT Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_1/O Encoder_interface_i/encoder_0/U0/ap_return\[2\]_INST_0/I0 (352.4:421.4:421.4) (352.4:421.4:421.4))
+      (INTERCONNECT Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_1/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0/I0 (351.4:420.4:420.4) (351.4:420.4:420.4))
+      (INTERCONNECT Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_1/O Encoder_interface_i/encoder_0/U0/ap_return\[1\]_INST_0/I1 (262.4:309.4:309.4) (262.4:309.4:309.4))
+      (INTERCONNECT Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_2/O Encoder_interface_i/encoder_0/U0/ap_return\[1\]_INST_0/I0 (675.6:816.6:816.6) (675.6:816.6:816.6))
+      (INTERCONNECT Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_2/O Encoder_interface_i/encoder_0/U0/ap_return\[2\]_INST_0/I1 (447.6:534.6:534.6) (447.6:534.6:534.6))
+      (INTERCONNECT Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_2/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0/I1 (451.6:539.6:539.6) (451.6:539.6:539.6))
+      (INTERCONNECT Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_2/O Encoder_interface_i/encoder_0/U0/ap_return\[0\]_INST_0/I2 (856.6:1041.6:1041.6) (856.6:1041.6:1041.6))
+      (INTERCONNECT Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_3/O Encoder_interface_i/encoder_0/U0/ap_return\[0\]_INST_0/I1 (435.9:525.9:525.9) (435.9:525.9:525.9))
+      (INTERCONNECT Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_3/O Encoder_interface_i/encoder_0/U0/ap_return\[2\]_INST_0/I2 (561.9:685.9:685.9) (561.9:685.9:685.9))
+      (INTERCONNECT Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_3/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0/I2 (565.9:690.9:690.9) (565.9:690.9:690.9))
+      (INTERCONNECT Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_4/O Encoder_interface_i/encoder_0/U0/ap_return\[2\]_INST_0/I3 (532.8:649.8:649.8) (532.8:649.8:649.8))
+      (INTERCONNECT Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_4/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0/I3 (534.8:652.8:652.8) (534.8:652.8:652.8))
+      (INTERCONNECT Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_5/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0/I4 (414.9:505.9:505.9) (414.9:505.9:505.9))
+      (INTERCONNECT Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_5/O Encoder_interface_i/encoder_0/U0/ap_return\[2\]_INST_0/I5 (418.9:510.9:510.9) (418.9:510.9:510.9))
+      (INTERCONNECT Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_6/O Encoder_interface_i/encoder_0/U0/ap_return\[2\]_INST_0/I4 (1123.6:1326.6:1326.6) (1123.6:1326.6:1326.6))
+      (INTERCONNECT Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_6/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0/I5 (966.1:1139.1:1139.1) (966.1:1139.1:1139.1))
+      (INTERCONNECT coarse_counter_IBUF\[0\]_inst/O ap_return_OBUF\[4\]_inst/I (4225.0:4986.0:4986.0) (4225.0:4986.0:4986.0))
+      (INTERCONNECT coarse_counter_IBUF\[10\]_inst/O ap_return_OBUF\[14\]_inst/I (4146.4:4907.4:4907.4) (4146.4:4907.4:4907.4))
+      (INTERCONNECT coarse_counter_IBUF\[11\]_inst/O ap_return_OBUF\[15\]_inst/I (4146.4:4907.4:4907.4) (4146.4:4907.4:4907.4))
+      (INTERCONNECT coarse_counter_IBUF\[1\]_inst/O ap_return_OBUF\[5\]_inst/I (4225.3:4986.3:4986.3) (4225.3:4986.3:4986.3))
+      (INTERCONNECT coarse_counter_IBUF\[2\]_inst/O ap_return_OBUF\[6\]_inst/I (4140.4:4891.4:4891.4) (4140.4:4891.4:4891.4))
+      (INTERCONNECT coarse_counter_IBUF\[3\]_inst/O ap_return_OBUF\[7\]_inst/I (4140.4:4891.4:4891.4) (4140.4:4891.4:4891.4))
+      (INTERCONNECT coarse_counter_IBUF\[4\]_inst/O ap_return_OBUF\[8\]_inst/I (4140.4:4891.4:4891.4) (4140.4:4891.4:4891.4))
+      (INTERCONNECT coarse_counter_IBUF\[5\]_inst/O ap_return_OBUF\[9\]_inst/I (4140.4:4891.4:4891.4) (4140.4:4891.4:4891.4))
+      (INTERCONNECT coarse_counter_IBUF\[6\]_inst/O ap_return_OBUF\[10\]_inst/I (4170.2:4921.2:4921.2) (4170.2:4921.2:4921.2))
+      (INTERCONNECT coarse_counter_IBUF\[7\]_inst/O ap_return_OBUF\[11\]_inst/I (4170.2:4921.2:4921.2) (4170.2:4921.2:4921.2))
+      (INTERCONNECT coarse_counter_IBUF\[8\]_inst/O ap_return_OBUF\[12\]_inst/I (4351.7:5102.7:5102.7) (4351.7:5102.7:5102.7))
+      (INTERCONNECT coarse_counter_IBUF\[9\]_inst/O ap_return_OBUF\[13\]_inst/I (4351.7:5102.7:5102.7) (4351.7:5102.7:5102.7))
+      (INTERCONNECT delay_chain_IBUF\[0\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_1/I0 (872.2:1015.2:1015.2) (872.2:1015.2:1015.2))
+      (INTERCONNECT delay_chain_IBUF\[0\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_5/I2 (1187.5:1410.5:1410.5) (1187.5:1410.5:1410.5))
+      (INTERCONNECT delay_chain_IBUF\[0\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[0\]_INST_0/I3 (872.2:1015.2:1015.2) (872.2:1015.2:1015.2))
+      (INTERCONNECT delay_chain_IBUF\[0\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[1\]_INST_0_i_1/I3 (1187.2:1409.2:1409.2) (1187.2:1409.2:1409.2))
+      (INTERCONNECT delay_chain_IBUF\[1\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_6/I0 (1158.0:1376.0:1376.0) (1158.0:1376.0:1376.0))
+      (INTERCONNECT delay_chain_IBUF\[1\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_2/I1 (1158.0:1376.0:1376.0) (1158.0:1376.0:1376.0))
+      (INTERCONNECT delay_chain_IBUF\[1\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[1\]_INST_0_i_1/I2 (970.9:1135.9:1135.9) (970.9:1135.9:1135.9))
+      (INTERCONNECT delay_chain_IBUF\[2\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_4/I1 (716.6:837.6:837.6) (716.6:837.6:837.6))
+      (INTERCONNECT delay_chain_IBUF\[2\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_3/I2 (716.6:837.6:837.6) (716.6:837.6:837.6))
+      (INTERCONNECT delay_chain_IBUF\[2\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[1\]_INST_0/I4 (718.6:841.6:841.6) (718.6:841.6:841.6))
+      (INTERCONNECT delay_chain_IBUF\[3\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[0\]_INST_0/I0 (1150.9:1354.9:1354.9) (1150.9:1354.9:1354.9))
+      (INTERCONNECT delay_chain_IBUF\[3\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_5/I0 (981.4:1154.4:1154.4) (981.4:1154.4:1154.4))
+      (INTERCONNECT delay_chain_IBUF\[3\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_1/I1 (1150.9:1354.9:1354.9) (1150.9:1354.9:1354.9))
+      (INTERCONNECT delay_chain_IBUF\[3\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[1\]_INST_0_i_1/I5 (986.8:1158.8:1158.8) (986.8:1158.8:1158.8))
+      (INTERCONNECT delay_chain_IBUF\[4\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_3/I0 (1162.2:1383.2:1383.2) (1162.2:1383.2:1383.2))
+      (INTERCONNECT delay_chain_IBUF\[4\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_4/I2 (1162.2:1383.2:1383.2) (1162.2:1383.2:1383.2))
+      (INTERCONNECT delay_chain_IBUF\[4\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[1\]_INST_0/I5 (1163.2:1385.2:1385.2) (1163.2:1385.2:1385.2))
+      (INTERCONNECT delay_chain_IBUF\[5\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_4/I0 (1067.3:1263.3:1263.3) (1067.3:1263.3:1263.3))
+      (INTERCONNECT delay_chain_IBUF\[5\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_3/I1 (1067.3:1263.3:1263.3) (1067.3:1263.3:1263.3))
+      (INTERCONNECT delay_chain_IBUF\[5\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[1\]_INST_0/I3 (1312.3:1561.3:1561.3) (1312.3:1561.3:1561.3))
+      (INTERCONNECT delay_chain_IBUF\[6\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[1\]_INST_0_i_1/I1 (809.2:937.2:937.2) (809.2:937.2:937.2))
+      (INTERCONNECT delay_chain_IBUF\[6\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_6/I1 (1029.8:1211.8:1211.8) (1029.8:1211.8:1211.8))
+      (INTERCONNECT delay_chain_IBUF\[6\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_2/I2 (1029.8:1211.8:1211.8) (1029.8:1211.8:1211.8))
+      (INTERCONNECT delay_chain_IBUF\[7\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_5/I1 (1088.7:1283.7:1283.7) (1088.7:1283.7:1283.7))
+      (INTERCONNECT delay_chain_IBUF\[7\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_1/I2 (1234.9:1462.9:1462.9) (1234.9:1462.9:1462.9))
+      (INTERCONNECT delay_chain_IBUF\[7\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[0\]_INST_0/I4 (1234.9:1462.9:1462.9) (1234.9:1462.9:1462.9))
+      (INTERCONNECT delay_chain_IBUF\[7\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[1\]_INST_0_i_1/I4 (1094.5:1290.5:1290.5) (1094.5:1290.5:1290.5))
+      (INTERCONNECT delay_chain_IBUF\[8\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[1\]_INST_0_i_1/I0 (1358.1:1617.1:1617.1) (1358.1:1617.1:1617.1))
+      (INTERCONNECT delay_chain_IBUF\[8\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_2/I0 (1064.2:1262.2:1262.2) (1064.2:1262.2:1262.2))
+      (INTERCONNECT delay_chain_IBUF\[8\]_inst/O Encoder_interface_i/encoder_0/U0/ap_return\[3\]_INST_0_i_6/I2 (1064.2:1262.2:1262.2) (1064.2:1262.2:1262.2))
+      )
+    )
+)
+)

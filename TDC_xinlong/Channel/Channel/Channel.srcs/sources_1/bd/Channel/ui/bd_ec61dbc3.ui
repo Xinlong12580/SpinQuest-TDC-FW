@@ -1,0 +1,52 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.717936",
+   "Default View_TopLeft":"-387,-577",
+   "ExpandedHierarchyInLayout":"",
+   "commentid":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port port-id_update_mode -pg 1 -lvl 0 -x -220 -y -290 -defaultsOSRD
+preplace port port-id_rst -pg 1 -lvl 0 -x -220 -y -350 -defaultsOSRD
+preplace port port-id_hit -pg 1 -lvl 0 -x -220 -y 20 -defaultsOSRD
+preplace port port-id_rd_en -pg 1 -lvl 0 -x -220 -y 120 -defaultsOSRD
+preplace port port-id_full -pg 1 -lvl 5 -x 1240 -y -240 -defaultsOSRD
+preplace port port-id_empty -pg 1 -lvl 5 -x 1240 -y -260 -defaultsOSRD
+preplace port port-id_wr_rst_busy -pg 1 -lvl 5 -x 1240 -y 100 -defaultsOSRD
+preplace port port-id_rd_rst_busy -pg 1 -lvl 5 -x 1240 -y 120 -defaultsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -220 -y -430 -defaultsOSRD
+preplace portBus block_window -pg 1 -lvl 0 -x -220 -y -260 -defaultsOSRD
+preplace portBus debug_elimiator -pg 1 -lvl 5 -x 1240 -y -410 -defaultsOSRD
+preplace portBus debug_encoder -pg 1 -lvl 5 -x 1240 -y -130 -defaultsOSRD
+preplace portBus dout -pg 1 -lvl 5 -x 1240 -y -150 -defaultsOSRD
+preplace portBus delay_chain -pg 1 -lvl 0 -x -220 -y 60 -defaultsOSRD
+preplace portBus data_count -pg 1 -lvl 5 -x 1240 -y 40 -defaultsOSRD
+preplace inst Main_Counter_0 -pg 1 -lvl 2 -x 370 -y -220 -defaultsOSRD
+preplace inst Encoder_0 -pg 1 -lvl 3 -x 650 -y 30 -defaultsOSRD
+preplace inst Eliminator_0 -pg 1 -lvl 1 -x 70 -y -60 -defaultsOSRD
+preplace inst Pipe_0 -pg 1 -lvl 4 -x 960 -y 40 -defaultsOSRD
+preplace netloc Eliminator_0_data_out 1 1 2 NJ -60 470
+preplace netloc Eliminator_0_registered_data 1 1 2 NJ -80 490
+preplace netloc Eliminator_0_state_out 1 1 4 240J -410 NJ -410 NJ -410 N
+preplace netloc Encoder_0_data_out 1 3 1 810 30n
+preplace netloc Encoder_0_debug 1 3 2 800 -130 N
+preplace netloc Encoder_0_encoded_data 1 3 1 830 10n
+preplace netloc Main_Counter_0_counter 1 0 3 -100 -180 250J -150 470
+preplace netloc Net 1 0 4 -110 -200 260 -100 500 120 820
+preplace netloc Pipe_0_data_count 1 4 1 1100 40n
+preplace netloc Pipe_0_dout 1 4 1 1090 -150n
+preplace netloc Pipe_0_empty 1 4 1 1080 -260n
+preplace netloc Pipe_0_full 1 4 1 1100 -240n
+preplace netloc Pipe_0_rd_rst_busy 1 4 1 1090 50n
+preplace netloc Pipe_0_wr_rst_busy 1 4 1 1080 70n
+preplace netloc block_window_1 1 0 1 -200 -260n
+preplace netloc delay_chain_1 1 0 1 -160 0n
+preplace netloc hit_1 1 0 1 -200 -40n
+preplace netloc rd_en_1 1 0 4 NJ 120 NJ 120 470J 140 830
+preplace netloc rst_1 1 0 4 -120J -190 270 -90 480 130 840
+preplace netloc update_mode_1 1 0 1 -190 -290n
+levelinfo -pg 1 -220 70 370 650 960 1240
+pagesize -pg 1 -db -bbox -sgen -400 -630 1440 150
+"
+}
+0

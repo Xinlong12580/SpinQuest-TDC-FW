@@ -1,0 +1,237 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x22123CBEA2424BD8",
+      "device": "xck26-sfvc784-2LV-c",
+      "gen_directory": "../../../../Channel.gen/sources_1/bd/Channel",
+      "name": "Channel",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "Main_Counter_0": "",
+      "Encoder_0": "",
+      "Eliminator_0": "",
+      "Pipe_0": ""
+    },
+    "ports": {
+      "update_mode": {
+        "direction": "I"
+      },
+      "block_window": {
+        "direction": "I",
+        "left": "9",
+        "right": "0"
+      },
+      "rst": {
+        "direction": "I"
+      },
+      "hit": {
+        "direction": "I"
+      },
+      "debug_elimiator": {
+        "direction": "O",
+        "left": "1",
+        "right": "0"
+      },
+      "debug_encoder": {
+        "direction": "O",
+        "left": "1",
+        "right": "0"
+      },
+      "rd_en": {
+        "direction": "I"
+      },
+      "full": {
+        "direction": "O"
+      },
+      "empty": {
+        "direction": "O"
+      },
+      "dout": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "wr_rst_busy": {
+        "direction": "O"
+      },
+      "rd_rst_busy": {
+        "direction": "O"
+      },
+      "delay_chain": {
+        "direction": "I",
+        "left": "9",
+        "right": "0"
+      },
+      "clk": {
+        "direction": "I"
+      },
+      "data_count": {
+        "direction": "O",
+        "left": "4",
+        "right": "0"
+      }
+    },
+    "components": {
+      "Main_Counter_0": {
+        "vlnv": "xilinx.com:user:Main_Counter:1.0",
+        "ip_revision": "2",
+        "xci_name": "Channel_Main_Counter_0_0",
+        "xci_path": "ip\\Channel_Main_Counter_0_0\\Channel_Main_Counter_0_0.xci",
+        "inst_hier_path": "Main_Counter_0"
+      },
+      "Encoder_0": {
+        "vlnv": "xilinx.com:user:Encoder:1.0",
+        "ip_revision": "2",
+        "xci_name": "Channel_Encoder_0_0",
+        "xci_path": "ip\\Channel_Encoder_0_0\\Channel_Encoder_0_0.xci",
+        "inst_hier_path": "Encoder_0"
+      },
+      "Eliminator_0": {
+        "vlnv": "xilinx.com:user:Eliminator:1.0",
+        "ip_revision": "2",
+        "xci_name": "Channel_Eliminator_0_0",
+        "xci_path": "ip\\Channel_Eliminator_0_0\\Channel_Eliminator_0_0.xci",
+        "inst_hier_path": "Eliminator_0"
+      },
+      "Pipe_0": {
+        "vlnv": "xilinx.com:user:Pipe:1.0",
+        "ip_revision": "2",
+        "xci_name": "Channel_Pipe_0_0",
+        "xci_path": "ip\\Channel_Pipe_0_0\\Channel_Pipe_0_0.xci",
+        "inst_hier_path": "Pipe_0"
+      }
+    },
+    "nets": {
+      "Eliminator_0_data_out": {
+        "ports": [
+          "Eliminator_0/data_out",
+          "Encoder_0/data_in"
+        ]
+      },
+      "Eliminator_0_registered_data": {
+        "ports": [
+          "Eliminator_0/registered_data",
+          "Encoder_0/raw_data"
+        ]
+      },
+      "Eliminator_0_state_out": {
+        "ports": [
+          "Eliminator_0/state_out",
+          "debug_elimiator"
+        ]
+      },
+      "Encoder_0_data_out": {
+        "ports": [
+          "Encoder_0/data_out",
+          "Pipe_0/wr_en"
+        ]
+      },
+      "Encoder_0_debug": {
+        "ports": [
+          "Encoder_0/debug",
+          "debug_encoder"
+        ]
+      },
+      "Encoder_0_encoded_data": {
+        "ports": [
+          "Encoder_0/encoded_data",
+          "Pipe_0/din"
+        ]
+      },
+      "Main_Counter_0_counter": {
+        "ports": [
+          "Main_Counter_0/counter",
+          "Eliminator_0/coarse_counter"
+        ]
+      },
+      "Net": {
+        "ports": [
+          "clk",
+          "Main_Counter_0/clk",
+          "Encoder_0/clk",
+          "Eliminator_0/clk",
+          "Pipe_0/clk"
+        ]
+      },
+      "Pipe_0_data_count": {
+        "ports": [
+          "Pipe_0/data_count",
+          "data_count"
+        ]
+      },
+      "Pipe_0_dout": {
+        "ports": [
+          "Pipe_0/dout",
+          "dout"
+        ]
+      },
+      "Pipe_0_empty": {
+        "ports": [
+          "Pipe_0/empty",
+          "empty"
+        ]
+      },
+      "Pipe_0_full": {
+        "ports": [
+          "Pipe_0/full",
+          "full"
+        ]
+      },
+      "Pipe_0_rd_rst_busy": {
+        "ports": [
+          "Pipe_0/rd_rst_busy",
+          "rd_rst_busy"
+        ]
+      },
+      "Pipe_0_wr_rst_busy": {
+        "ports": [
+          "Pipe_0/wr_rst_busy",
+          "wr_rst_busy"
+        ]
+      },
+      "block_window_1": {
+        "ports": [
+          "block_window",
+          "Eliminator_0/block_window"
+        ]
+      },
+      "delay_chain_1": {
+        "ports": [
+          "delay_chain",
+          "Eliminator_0/delay_chain"
+        ]
+      },
+      "hit_1": {
+        "ports": [
+          "hit",
+          "Eliminator_0/hit"
+        ]
+      },
+      "rd_en_1": {
+        "ports": [
+          "rd_en",
+          "Pipe_0/rd_en"
+        ]
+      },
+      "rst_1": {
+        "ports": [
+          "rst",
+          "Main_Counter_0/rst",
+          "Eliminator_0/rst",
+          "Encoder_0/rst",
+          "Pipe_0/srst"
+        ]
+      },
+      "update_mode_1": {
+        "ports": [
+          "update_mode",
+          "Eliminator_0/update_mode"
+        ]
+      }
+    }
+  }
+}

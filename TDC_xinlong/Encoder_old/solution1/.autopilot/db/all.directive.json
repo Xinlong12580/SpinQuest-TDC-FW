@@ -1,0 +1,44 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "encoder",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "encoder"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "D:/work_directory/TDC/Encoder/solution1/directives.tcl",
+    "sourceLine": 7,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "encoder",
+    "id": 1,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "encoder"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "D:/work_directory/TDC/Encoder/solution1/csynth.tcl",
+    "sourceLine": 18,
+    "success": true
+  }
+]

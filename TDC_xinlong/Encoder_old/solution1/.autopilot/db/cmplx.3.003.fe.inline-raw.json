@@ -1,0 +1,17 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "encoder.cpp",
+    "fileloc": 3,
+    "instructions": 124,
+    "loads": {
+      "L": 8
+    },
+    "name": "encoder",
+    "stores": {
+      "L": 8
+    },
+    "total_instructions": 124
+  }
+}

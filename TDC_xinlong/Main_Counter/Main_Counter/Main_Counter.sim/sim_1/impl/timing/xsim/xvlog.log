@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/work_directory/TDC/Main_Counter/Main_Counter/Main_Counter.sim/sim_1/impl/timing/xsim/tb_main_counter_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IBUF_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module IBUF_HD2
+INFO: [VRFC 10-311] analyzing module Main_Counter
+INFO: [VRFC 10-311] analyzing module glbl
