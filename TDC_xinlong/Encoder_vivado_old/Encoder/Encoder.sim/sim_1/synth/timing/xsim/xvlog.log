@@ -1,6 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/work_directory/TDC/Encoder_vivado/Encoder/Encoder.sim/sim_1/synth/timing/xsim/Encoder_test_time_synth.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module Encoder_interface
-INFO: [VRFC 10-311] analyzing module Encoder_interface_encoder_0_0
-INFO: [VRFC 10-311] analyzing module Encoder_interface_encoder_0_0_encoder
-INFO: [VRFC 10-311] analyzing module Encoder_interface_wrapper
-INFO: [VRFC 10-311] analyzing module glbl
