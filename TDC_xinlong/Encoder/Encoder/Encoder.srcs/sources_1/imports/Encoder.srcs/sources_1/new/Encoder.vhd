@@ -32,28 +32,28 @@ use IEEE.NUMERIC_STD.ALL;
 --use UNISIM.VComponents.all;
 
 entity Encoder is
-    Generic ( chain_length : integer range 1 TO 15:=10;--Assume fine time takes 4 bits and coarse time takes 12 bits at most
-        clock_length: integer range 10 TO 12:=12;
-        cable: std_logic_vector(3 DOWNTO 0):="0001";
-        Channel_number:std_logic_vector(3 DOWNTO 0):="0001";
-        hit_number:std_logic_vector(3 DOWNTO 0):="0001";
-        edge_type:std_logic:='0');
+    Generic ( chain_length : integer range 1 TO 15:=10;--length of the delay chain
+        clock_length: integer range 10 TO 12:=12; --length of the coarse time counter
+        cable: std_logic_vector(3 DOWNTO 0):="0001"; --cable number of the channel
+        Channel_number:std_logic_vector(3 DOWNTO 0):="0001"; --Channel number of the channel
+        hit_number:std_logic_vector(3 DOWNTO 0):="0001"; --Dummy hit number. SHould be assigned later
+        edge_type:std_logic:='0'); --edge type (rising of falling)
     Port (
         rst:in std_logic:='0';
         clk:in std_logic:='0';
-        raw_data : in std_logic_vector(chain_length+clock_length-1 DOWNTO 0):=(others=>'0');
-        data_in: in std_logic:='0';
-        encoded_data: out std_logic_vector(31 DOWNTO 0):=(others=>'0');
-        data_out: out std_logic:='0';
-        debug: out std_logic_vector(1 DOWNTO 0):="00");
+        raw_data : in std_logic_vector(chain_length+clock_length-1 DOWNTO 0):=(others=>'0'); --data input. first clock_length bits is for coasre time couter; the rest chain_length bits is for delay chain
+        data_in: in std_logic:='0';  --control signal from the previous module to tell the encoder a new data is ready for processing
+        encoded_data: out std_logic_vector(31 DOWNTO 0):=(others=>'0'); --data output. Check the data format slides from TW TDC to check the format 
+        data_out: out std_logic:='0'; --control signal sent to the next module to tell it a new encoded data is ready
+        debug: out std_logic_vector(1 DOWNTO 0):="00"); --debug output to indicate the FSM state
 end Encoder;
 
 architecture Behavioral of Encoder is
-type states is (IDLE, WORKING, FINISHING);
-Signal raw_data_reg:std_logic_vector(chain_length+clock_length-1 DOWNTO 0):=(others=>'0');
-Signal encoded_data_buf: std_logic_vector(31 DOWNTO 0):=(others=>'0');
-Signal data_out_buf: std_logic:='0';
-Signal state:states:=IDLE;
+type states is (IDLE, WORKING, FINISHING); -- FSM states for the encoder. It is used for interfacing with the previous and the next module; encoding itself is done in the WORKING state
+Signal raw_data_reg:std_logic_vector(chain_length+clock_length-1 DOWNTO 0):=(others=>'0'); --a register for the input data
+Signal encoded_data_buf: std_logic_vector(31 DOWNTO 0):=(others=>'0'); --buffer for the output
+Signal data_out_buf: std_logic:='0'; --buffer for the debug output
+Signal state:states:=IDLE; --FSM state
 begin
     encode: process (clk) is
     variable count_ones:integer range 0 to 15:=0;
@@ -65,10 +65,10 @@ begin
                 data_out_buf<='0';
                 count_ones:=0;
                 state<=IDLE;
-	debug<="00";
+		debug<="00";
             else
                 case state is
-                    when IDLE=>
+                    when IDLE=> --If a "data_in" signal is sent to the encoder in state IDLE, it registers the input raw data and goes into the WORKING state 
                         if (data_in='0') then
                             raw_data_reg<=(others=>'0');--raw_data_reg;
                             encoded_data_buf<=encoded_data_buf;
@@ -84,9 +84,9 @@ begin
                             state<=WORKING;
                             debug<="10";
                         end if;
-                    when WORKING=>
+                    when WORKING=> --encoding is done in a clock cycle. once it is finished, the state goes into FINISHING
                         count_ones:=0;
-                        for i in 0 to chain_length-1 loop
+                        for i in 0 to chain_length-1 loop -- Counting ones algorithm is used here to convert the thermometer data to binary data
                             if raw_data_reg(i+12) = '1' then
                                 count_ones := count_ones + 1;
                             end if;
@@ -97,11 +97,11 @@ begin
      --                   end loop;
        --                 count_ones <= to_integer(unsigned(temp(WIDTH-1 downto WIDTH - binary_code'length)));
     
-                        encoded_data_buf(3 DOWNTO 0)<= std_logic_vector(to_unsigned(count_ones, 4));
-                        for i in 4 to 15 loop
+                        encoded_data_buf(3 DOWNTO 0)<= std_logic_vector(to_unsigned(count_ones, 4)); 
+                        for i in 4 to 15 loop --encoding the coarse time counter information
                             encoded_data_buf(i)<=raw_data_reg(i-4);
                         end loop;
-                        for i in 16 to 16 loop
+                        for i in 16 to 16 loop --encoding other information for the next 16 bits
                             encoded_data_buf(i)<=edge_type;
                         end loop;
                         for i in 17 to 19 loop
@@ -121,7 +121,7 @@ begin
                         data_out_buf<='0';
                         state<=FINISHING;
                         debug<="11";
-                    when FINISHING=>
+                    when FINISHING=> --In FINISHING state, the encoder sends a "data_out" signal to the next module to inform it with the encoded data, then goes back into IDLE state
                         raw_data_reg<=(others=>'0');--raw_data_reg;
                         encoded_data_buf<=encoded_data_buf;
                         data_out_buf<='1';
