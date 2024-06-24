@@ -32,7 +32,7 @@ use IEEE.NUMERIC_STD.ALL;
 --use UNISIM.VComponents.all;
 
 entity Main_Counter is
-  Generic (counter_length:integer:=12);
+  Generic (counter_length:integer:=12); --number of counter bits
   Port (
   clk : in std_logic:='0';
   rst: in std_logic:='0';
