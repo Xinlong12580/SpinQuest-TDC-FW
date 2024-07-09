@@ -1,0 +1,227 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Jul  3 12:59:13 2024
+# Process ID: 27532
+# Current directory: D:/work_directory/test/test_channel/test_channel.runs/testbram_v3_channel_setter_0_0_synth_1
+# Command line: vivado.exe -log testbram_v3_channel_setter_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source testbram_v3_channel_setter_0_0.tcl
+# Log file: D:/work_directory/test/test_channel/test_channel.runs/testbram_v3_channel_setter_0_0_synth_1/testbram_v3_channel_setter_0_0.vds
+# Journal file: D:/work_directory/test/test_channel/test_channel.runs/testbram_v3_channel_setter_0_0_synth_1\vivado.jou
+# Running On: LAPTOP-UQD20HRI, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16952 MB
+#-----------------------------------------------------------
+source testbram_v3_channel_setter_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 474.320 ; gain = 182.469
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/work_directory/TDC/IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2023.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: testbram_v3_channel_setter_0_0
+Command: synth_design -top testbram_v3_channel_setter_0_0 -part xck26-sfvc784-2LV-c -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 20672
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1880.840 ; gain = 380.867
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'testbram_v3_channel_setter_0_0' [d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/ip/testbram_v3_channel_setter_0_0/synth/testbram_v3_channel_setter_0_0.vhd:67]
+INFO: [Synth 8-3491] module 'channel_setter' declared at 'D:/work_directory/test/test_channel/test_channel.srcs/sources_1/imports/new/channel_setter.vhd:34' bound to instance 'U0' of component 'channel_setter' [d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/ip/testbram_v3_channel_setter_0_0/synth/testbram_v3_channel_setter_0_0.vhd:89]
+INFO: [Synth 8-638] synthesizing module 'channel_setter' [D:/work_directory/test/test_channel/test_channel.srcs/sources_1/imports/new/channel_setter.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'channel_setter' (0#1) [D:/work_directory/test/test_channel/test_channel.srcs/sources_1/imports/new/channel_setter.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'testbram_v3_channel_setter_0_0' (0#1) [d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/ip/testbram_v3_channel_setter_0_0/synth/testbram_v3_channel_setter_0_0.vhd:67]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1992.949 ; gain = 492.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1992.949 ; gain = 492.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1992.949 ; gain = 492.977
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1992.949 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1992.949 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 2005.773 ; gain = 12.824
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 2005.773 ; gain = 505.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xck26-sfvc784-2LV-c
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 2005.773 ; gain = 505.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 2005.773 ; gain = 505.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 2005.773 ; gain = 505.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1248 (col length:96)
+BRAMs: 288 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3330] design testbram_v3_channel_setter_0_0 has an empty top module
+INFO: [Synth 8-3917] design testbram_v3_channel_setter_0_0 has port rd driven by constant 0
+INFO: [Synth 8-3917] design testbram_v3_channel_setter_0_0 has port blocking_window[9] driven by constant 0
+INFO: [Synth 8-3917] design testbram_v3_channel_setter_0_0 has port blocking_window[8] driven by constant 0
+INFO: [Synth 8-3917] design testbram_v3_channel_setter_0_0 has port blocking_window[7] driven by constant 0
+INFO: [Synth 8-3917] design testbram_v3_channel_setter_0_0 has port blocking_window[6] driven by constant 0
+INFO: [Synth 8-3917] design testbram_v3_channel_setter_0_0 has port blocking_window[5] driven by constant 1
+INFO: [Synth 8-3917] design testbram_v3_channel_setter_0_0 has port blocking_window[4] driven by constant 0
+INFO: [Synth 8-3917] design testbram_v3_channel_setter_0_0 has port blocking_window[3] driven by constant 0
+INFO: [Synth 8-3917] design testbram_v3_channel_setter_0_0 has port blocking_window[2] driven by constant 0
+INFO: [Synth 8-3917] design testbram_v3_channel_setter_0_0 has port blocking_window[1] driven by constant 0
+INFO: [Synth 8-3917] design testbram_v3_channel_setter_0_0 has port blocking_window[0] driven by constant 0
+INFO: [Synth 8-3917] design testbram_v3_channel_setter_0_0 has port delay_chain[9] driven by constant 0
+INFO: [Synth 8-3917] design testbram_v3_channel_setter_0_0 has port delay_chain[8] driven by constant 0
+INFO: [Synth 8-3917] design testbram_v3_channel_setter_0_0 has port delay_chain[7] driven by constant 0
+INFO: [Synth 8-3917] design testbram_v3_channel_setter_0_0 has port delay_chain[6] driven by constant 0
+INFO: [Synth 8-3917] design testbram_v3_channel_setter_0_0 has port delay_chain[5] driven by constant 0
+INFO: [Synth 8-3917] design testbram_v3_channel_setter_0_0 has port delay_chain[4] driven by constant 0
+INFO: [Synth 8-3917] design testbram_v3_channel_setter_0_0 has port update_mode driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 2005.773 ; gain = 505.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 2524.207 ; gain = 1024.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 2524.207 ; gain = 1024.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 2533.750 ; gain = 1033.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 2549.547 ; gain = 1049.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 2549.547 ; gain = 1049.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 2549.547 ; gain = 1049.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 2549.547 ; gain = 1049.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 2549.547 ; gain = 1049.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 2549.547 ; gain = 1049.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 2549.547 ; gain = 1049.574
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:34 ; elapsed = 00:00:46 . Memory (MB): peak = 2549.547 ; gain = 1036.750
+Synthesis Optimization Complete : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 2549.547 ; gain = 1049.574
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2549.547 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2593.480 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 35aec234
+INFO: [Common 17-83] Releasing license: Synthesis
+41 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:57 ; elapsed = 00:01:01 . Memory (MB): peak = 2598.469 ; gain = 2072.250
+INFO: [Common 17-1381] The checkpoint 'D:/work_directory/test/test_channel/test_channel.runs/testbram_v3_channel_setter_0_0_synth_1/testbram_v3_channel_setter_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP testbram_v3_channel_setter_0_0, cache-ID = 32e78df7b0ee1bb9
+INFO: [Common 17-1381] The checkpoint 'D:/work_directory/test/test_channel/test_channel.runs/testbram_v3_channel_setter_0_0_synth_1/testbram_v3_channel_setter_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file testbram_v3_channel_setter_0_0_utilization_synth.rpt -pb testbram_v3_channel_setter_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Jul  3 13:00:32 2024...

@@ -1,0 +1,157 @@
+18:12:24 DEBUG : Logs will be stored at 'D:/work_directory/test/test_channel/IDE.log'.
+18:12:29 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\work_directory\test\test_channel\temp_xsdb_launch_script.tcl
+18:12:29 INFO  : Registering command handlers for Vitis TCF services
+18:12:29 INFO  : Platform repository initialization has completed.
+18:12:32 INFO  : XSCT server has started successfully.
+18:12:32 INFO  : plnx-install-location is set to ''
+18:12:32 INFO  : Successfully done setting XSCT server connection channel  
+18:12:32 INFO  : Successfully done query RDI_DATADIR 
+18:12:32 INFO  : Successfully done setting workspace for the tool. 
+18:14:08 INFO  : Result from executing command 'getProjects': testchannel_wrapper
+18:14:08 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+18:14:10 WARN  : An unexpected exception occurred in the module 'platform project logging'
+18:14:13 INFO  : Platform 'testchannel_wrapper' is added to custom repositories.
+18:14:33 INFO  : Platform 'testchannel_wrapper' is added to custom repositories.
+18:24:07 INFO  : Result from executing command 'getProjects': testchannel_wrapper
+18:24:07 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+18:24:09 INFO  : Checking for BSP changes to sync application flags for project 'hello_world'...
+18:25:44 INFO  : Checking for BSP changes to sync application flags for project 'hello_world'...
+18:27:35 INFO  : Checking for BSP changes to sync application flags for project 'hello_world'...
+13:26:10 INFO  : Result from executing command 'getProjects': testchannel_wrapper;testchannel_wrapper_1
+13:26:10 INFO  : Result from executing command 'getPlatforms': testchannel_wrapper|D:/work_directory/test/test_channel/testchannel_wrapper/export/testchannel_wrapper/testchannel_wrapper.xpfm;xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+13:26:12 INFO  : Platform 'testchannel_wrapper_1' is added to custom repositories.
+13:26:31 INFO  : Platform 'testchannel_wrapper_1' is added to custom repositories.
+13:36:38 INFO  : Result from executing command 'getProjects': testchannel_wrapper;testchannel_wrapper_1
+13:36:38 INFO  : Result from executing command 'getPlatforms': testchannel_wrapper_1|D:/work_directory/test/test_channel/testchannel_wrapper_1/export/testchannel_wrapper_1/testchannel_wrapper_1.xpfm;testchannel_wrapper|D:/work_directory/test/test_channel/testchannel_wrapper/export/testchannel_wrapper/testchannel_wrapper.xpfm;xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+13:36:39 INFO  : Checking for BSP changes to sync application flags for project 'hello_world_new'...
+14:08:45 INFO  : Result from executing command 'getProjects': testchannel_wrapper;testchannel_wrapper_1;testchannel_wrapper_2
+14:08:45 INFO  : Result from executing command 'getPlatforms': testchannel_wrapper_1|D:/work_directory/test/test_channel/testchannel_wrapper_1/export/testchannel_wrapper_1/testchannel_wrapper_1.xpfm;testchannel_wrapper|D:/work_directory/test/test_channel/testchannel_wrapper/export/testchannel_wrapper/testchannel_wrapper.xpfm;xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+14:08:46 INFO  : Platform 'testchannel_wrapper_2' is added to custom repositories.
+14:09:02 INFO  : Platform 'testchannel_wrapper_2' is added to custom repositories.
+14:12:24 INFO  : Result from executing command 'getProjects': testchannel_wrapper;testchannel_wrapper_1;testchannel_wrapper_2
+14:12:24 INFO  : Result from executing command 'getPlatforms': testchannel_wrapper_1|D:/work_directory/test/test_channel/testchannel_wrapper_1/export/testchannel_wrapper_1/testchannel_wrapper_1.xpfm;testchannel_wrapper_2|D:/work_directory/test/test_channel/testchannel_wrapper_2/export/testchannel_wrapper_2/testchannel_wrapper_2.xpfm;testchannel_wrapper|D:/work_directory/test/test_channel/testchannel_wrapper/export/testchannel_wrapper/testchannel_wrapper.xpfm;xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+14:12:25 INFO  : Checking for BSP changes to sync application flags for project 'hello_world_new_new'...
+14:14:41 INFO  : Checking for BSP changes to sync application flags for project 'hello_world_new_new'...
+14:48:19 INFO  : Result from executing command 'getProjects': testchannel_wrapper;testchannel_wrapper_1;testchannel_wrapper_2;testchannel_wrapper_3
+14:48:19 INFO  : Result from executing command 'getPlatforms': testchannel_wrapper_1|D:/work_directory/test/test_channel/testchannel_wrapper_1/export/testchannel_wrapper_1/testchannel_wrapper_1.xpfm;testchannel_wrapper_2|D:/work_directory/test/test_channel/testchannel_wrapper_2/export/testchannel_wrapper_2/testchannel_wrapper_2.xpfm;testchannel_wrapper|D:/work_directory/test/test_channel/testchannel_wrapper/export/testchannel_wrapper/testchannel_wrapper.xpfm;xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+14:48:21 INFO  : Platform 'testchannel_wrapper_3' is added to custom repositories.
+14:48:35 INFO  : Platform 'testchannel_wrapper_3' is added to custom repositories.
+14:53:49 INFO  : Result from executing command 'getProjects': testchannel_wrapper;testchannel_wrapper_1;testchannel_wrapper_2;testchannel_wrapper_3
+14:53:49 INFO  : Result from executing command 'getPlatforms': testchannel_wrapper_1|D:/work_directory/test/test_channel/testchannel_wrapper_1/export/testchannel_wrapper_1/testchannel_wrapper_1.xpfm;testchannel_wrapper_2|D:/work_directory/test/test_channel/testchannel_wrapper_2/export/testchannel_wrapper_2/testchannel_wrapper_2.xpfm;testchannel_wrapper_3|D:/work_directory/test/test_channel/testchannel_wrapper_3/export/testchannel_wrapper_3/testchannel_wrapper_3.xpfm;testchannel_wrapper|D:/work_directory/test/test_channel/testchannel_wrapper/export/testchannel_wrapper/testchannel_wrapper.xpfm;xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+14:53:50 INFO  : Checking for BSP changes to sync application flags for project 'hello_world_new_new_new'...
+15:06:06 ERROR : An unexpected exception occurred in the module 'reading platform'
+15:27:19 INFO  : Result from executing command 'getProjects': testchannel_wrapper;testchannel_wrapper_1;testchannel_wrapper_2;testchannel_wrapper_3
+15:27:19 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+15:27:20 INFO  : Platform 'testchannel_wrapper' is added to custom repositories.
+15:27:35 INFO  : Platform 'testchannel_wrapper' is added to custom repositories.
+15:33:03 INFO  : Result from executing command 'getProjects': testchannel_wrapper;testchannel_wrapper_1;testchannel_wrapper_2;testchannel_wrapper_3
+15:33:03 INFO  : Result from executing command 'getPlatforms': testchannel_wrapper_1|D:/work_directory/test/test_channel/testchannel_wrapper_1/export/testchannel_wrapper_1/testchannel_wrapper_1.xpfm;testchannel_wrapper_2|D:/work_directory/test/test_channel/testchannel_wrapper_2/export/testchannel_wrapper_2/testchannel_wrapper_2.xpfm;testchannel_wrapper_3|D:/work_directory/test/test_channel/testchannel_wrapper_3/export/testchannel_wrapper_3/testchannel_wrapper_3.xpfm;testchannel_wrapper|D:/work_directory/test/test_channel/testchannel_wrapper/export/testchannel_wrapper/testchannel_wrapper.xpfm;xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+15:33:04 INFO  : Checking for BSP changes to sync application flags for project 'hello_world_new_new_new_new'...
+15:33:50 ERROR : (XSDB Server)no targets found with "name =~ "PSU"". available targets:
+ 14  whole scan chain (board power off)
+
+15:55:52 INFO  : Result from executing command 'getProjects': testchannel_wrapper;testchannel_wrapper_1;testchannel_wrapper_2;testchannel_wrapper_3
+15:55:52 INFO  : Result from executing command 'getPlatforms': testchannel_wrapper_1|D:/work_directory/test/test_channel/testchannel_wrapper_1/export/testchannel_wrapper_1/testchannel_wrapper_1.xpfm;testchannel_wrapper_2|D:/work_directory/test/test_channel/testchannel_wrapper_2/export/testchannel_wrapper_2/testchannel_wrapper_2.xpfm;testchannel_wrapper_3|D:/work_directory/test/test_channel/testchannel_wrapper_3/export/testchannel_wrapper_3/testchannel_wrapper_3.xpfm;xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+15:55:54 INFO  : Platform 'testchannel_wrapper' is added to custom repositories.
+15:56:06 INFO  : Platform 'testchannel_wrapper' is added to custom repositories.
+15:58:06 ERROR : (XSDB Server)couldn't open "D:/work_directory/test/test_channel/testchannel_wrapper/export/testchannel_wrapper/sw/testchannel_wrapper/boot/pmufw.elf": no such file or directory
+
+16:00:59 INFO  : Result from executing command 'getProjects': testchannel_wrapper;testchannel_wrapper_1;testchannel_wrapper_2;testchannel_wrapper_3
+16:00:59 INFO  : Result from executing command 'getPlatforms': testchannel_wrapper_1|D:/work_directory/test/test_channel/testchannel_wrapper_1/export/testchannel_wrapper_1/testchannel_wrapper_1.xpfm;testchannel_wrapper_2|D:/work_directory/test/test_channel/testchannel_wrapper_2/export/testchannel_wrapper_2/testchannel_wrapper_2.xpfm;testchannel_wrapper_3|D:/work_directory/test/test_channel/testchannel_wrapper_3/export/testchannel_wrapper_3/testchannel_wrapper_3.xpfm;testchannel_wrapper|D:/work_directory/test/test_channel/testchannel_wrapper/export/testchannel_wrapper/testchannel_wrapper.xpfm;xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+16:01:00 INFO  : Checking for BSP changes to sync application flags for project 'hello_world'...
+17:25:30 DEBUG : Logs will be stored at 'D:/work_directory/test/test_channel/IDE.log'.
+17:25:31 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\work_directory\test\test_channel\temp_xsdb_launch_script.tcl
+17:25:35 INFO  : XSCT server has started successfully.
+17:25:35 INFO  : Successfully done setting XSCT server connection channel  
+17:25:35 INFO  : plnx-install-location is set to ''
+17:25:35 INFO  : Successfully done setting workspace for the tool. 
+17:25:36 INFO  : Registering command handlers for Vitis TCF services
+17:25:36 INFO  : Successfully done query RDI_DATADIR 
+17:25:36 INFO  : Platform repository initialization has completed.
+17:25:58 WARN  : An unexpected exception occurred in the module 'platform project logging'
+17:26:09 WARN  : An unexpected exception occurred in the module 'platform project logging'
+17:28:30 INFO  : Result from executing command 'getProjects': testchannel_wrapper;testchannel_wrapper_2;testchannel_wrapper_3
+17:28:30 INFO  : Result from executing command 'getPlatforms': testchannel_wrapper_2|D:/work_directory/test/test_channel/testchannel_wrapper_2/export/testchannel_wrapper_2/testchannel_wrapper_2.xpfm;testchannel_wrapper_3|D:/work_directory/test/test_channel/testchannel_wrapper_3/export/testchannel_wrapper_3/testchannel_wrapper_3.xpfm;xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+17:28:30 WARN  : An unexpected exception occurred in the module 'platform project logging'
+17:28:31 INFO  : Platform 'testchannel_wrapper' is added to custom repositories.
+17:29:05 INFO  : Platform 'testchannel_wrapper' is added to custom repositories.
+17:33:23 INFO  : Result from executing command 'getProjects': testchannel_wrapper;testchannel_wrapper_2;testchannel_wrapper_3
+17:33:23 INFO  : Result from executing command 'getPlatforms': testchannel_wrapper_2|D:/work_directory/test/test_channel/testchannel_wrapper_2/export/testchannel_wrapper_2/testchannel_wrapper_2.xpfm;testchannel_wrapper_3|D:/work_directory/test/test_channel/testchannel_wrapper_3/export/testchannel_wrapper_3/testchannel_wrapper_3.xpfm;testchannel_wrapper|D:/work_directory/test/test_channel/testchannel_wrapper/export/testchannel_wrapper/testchannel_wrapper.xpfm;xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+17:33:24 INFO  : Checking for BSP changes to sync application flags for project 'hello_world'...
+17:34:53 ERROR : (XSDB Server)couldn't read file "testscript.xsdb": no such file or directory
+
+18:00:12 INFO  : Result from executing command 'getProjects': testchannel_wrapper;testchannel_wrapper_2;testchannel_wrapper_3
+18:00:12 INFO  : Result from executing command 'getPlatforms': testchannel_wrapper_2|D:/work_directory/test/test_channel/testchannel_wrapper_2/export/testchannel_wrapper_2/testchannel_wrapper_2.xpfm;testchannel_wrapper_3|D:/work_directory/test/test_channel/testchannel_wrapper_3/export/testchannel_wrapper_3/testchannel_wrapper_3.xpfm;xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+18:00:16 INFO  : Platform 'testchannel_wrapper' is added to custom repositories.
+18:00:52 INFO  : Platform 'testchannel_wrapper' is added to custom repositories.
+18:05:11 INFO  : Result from executing command 'getProjects': testchannel_wrapper;testchannel_wrapper_2;testchannel_wrapper_3
+18:05:11 INFO  : Result from executing command 'getPlatforms': testchannel_wrapper_2|D:/work_directory/test/test_channel/testchannel_wrapper_2/export/testchannel_wrapper_2/testchannel_wrapper_2.xpfm;testchannel_wrapper_3|D:/work_directory/test/test_channel/testchannel_wrapper_3/export/testchannel_wrapper_3/testchannel_wrapper_3.xpfm;testchannel_wrapper|D:/work_directory/test/test_channel/testchannel_wrapper/export/testchannel_wrapper/testchannel_wrapper.xpfm;xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+18:05:13 INFO  : Checking for BSP changes to sync application flags for project 'hello_world'...
+18:09:24 ERROR : (XSDB Server)no targets found with "name =~ "PSU"". available targets:
+ 14  whole scan chain (board power off)
+
+18:22:32 ERROR : An unexpected exception occurred in the module 'reading platform'
+18:40:10 INFO  : Result from executing command 'getProjects': testchannel_wrapper;testchannel_wrapper_2;testchannel_wrapper_3
+18:40:10 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+18:40:11 INFO  : Platform 'testchannel_wrapper' is added to custom repositories.
+18:40:25 INFO  : Platform 'testchannel_wrapper' is added to custom repositories.
+18:45:09 INFO  : Result from executing command 'getProjects': testchannel_wrapper;testchannel_wrapper_2;testchannel_wrapper_3
+18:45:09 INFO  : Result from executing command 'getPlatforms': testchannel_wrapper_2|D:/work_directory/test/test_channel/testchannel_wrapper_2/export/testchannel_wrapper_2/testchannel_wrapper_2.xpfm;testchannel_wrapper_3|D:/work_directory/test/test_channel/testchannel_wrapper_3/export/testchannel_wrapper_3/testchannel_wrapper_3.xpfm;testchannel_wrapper|D:/work_directory/test/test_channel/testchannel_wrapper/export/testchannel_wrapper/testchannel_wrapper.xpfm;xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+18:45:10 INFO  : Checking for BSP changes to sync application flags for project 'hello_world'...
+18:49:45 INFO  : Checking for BSP changes to sync application flags for project 'hello_world'...
+19:12:32 INFO  : Checking for BSP changes to sync application flags for project 'hello_world'...
+19:36:04 DEBUG : Logs will be stored at 'D:/work_directory/test/test_channel/IDE.log'.
+19:36:06 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\work_directory\test\test_channel\temp_xsdb_launch_script.tcl
+19:36:10 INFO  : XSCT server has started successfully.
+19:36:10 INFO  : Successfully done setting XSCT server connection channel  
+19:36:10 INFO  : plnx-install-location is set to ''
+19:36:10 INFO  : Successfully done setting workspace for the tool. 
+19:36:11 INFO  : Registering command handlers for Vitis TCF services
+19:36:11 INFO  : Platform repository initialization has completed.
+19:36:11 INFO  : Successfully done query RDI_DATADIR 
+19:37:00 WARN  : An unexpected exception occurred in the module 'platform project logging'
+19:41:51 INFO  : Result from executing command 'getProjects': testchannel_wrapper;testchannel_wrapper_2;testchannel_wrapper_3
+19:41:51 INFO  : Result from executing command 'getPlatforms': testchannel_wrapper_2|D:/work_directory/test/test_channel/testchannel_wrapper_2/export/testchannel_wrapper_2/testchannel_wrapper_2.xpfm;testchannel_wrapper_3|D:/work_directory/test/test_channel/testchannel_wrapper_3/export/testchannel_wrapper_3/testchannel_wrapper_3.xpfm;xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+19:41:51 WARN  : An unexpected exception occurred in the module 'platform project logging'
+19:41:52 INFO  : Platform 'testchannel_wrapper' is added to custom repositories.
+19:42:06 INFO  : Platform 'testchannel_wrapper' is added to custom repositories.
+19:44:56 INFO  : Result from executing command 'getProjects': testchannel_wrapper;testchannel_wrapper_2;testchannel_wrapper_3
+19:44:56 INFO  : Result from executing command 'getPlatforms': testchannel_wrapper_2|D:/work_directory/test/test_channel/testchannel_wrapper_2/export/testchannel_wrapper_2/testchannel_wrapper_2.xpfm;testchannel_wrapper_3|D:/work_directory/test/test_channel/testchannel_wrapper_3/export/testchannel_wrapper_3/testchannel_wrapper_3.xpfm;testchannel_wrapper|D:/work_directory/test/test_channel/testchannel_wrapper/export/testchannel_wrapper/testchannel_wrapper.xpfm;xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+19:44:58 INFO  : Checking for BSP changes to sync application flags for project 'hello_world'...
+19:46:46 DEBUG : Logs will be stored at 'D:/work_directory/test/test_channel/IDE.log'.
+19:46:47 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\work_directory\test\test_channel\temp_xsdb_launch_script.tcl
+19:46:51 INFO  : XSCT server has started successfully.
+19:46:51 INFO  : Successfully done setting XSCT server connection channel  
+19:46:51 INFO  : plnx-install-location is set to ''
+19:46:51 INFO  : Successfully done setting workspace for the tool. 
+19:46:52 INFO  : Successfully done query RDI_DATADIR 
+19:46:52 INFO  : Registering command handlers for Vitis TCF services
+19:46:52 INFO  : Platform repository initialization has completed.
+19:52:06 WARN  : An unexpected exception occurred in the module 'platform project logging'
+19:53:54 INFO  : Result from executing command 'getProjects': testchannel_wrapper;testchannel_wrapper_2;testchannel_wrapper_3
+19:53:54 INFO  : Result from executing command 'getPlatforms': testchannel_wrapper_2|D:/work_directory/test/test_channel/testchannel_wrapper_2/export/testchannel_wrapper_2/testchannel_wrapper_2.xpfm;testchannel_wrapper_3|D:/work_directory/test/test_channel/testchannel_wrapper_3/export/testchannel_wrapper_3/testchannel_wrapper_3.xpfm;xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+19:53:55 WARN  : An unexpected exception occurred in the module 'platform project logging'
+19:53:56 INFO  : Platform 'testchannel_wrapper' is added to custom repositories.
+19:54:07 INFO  : Platform 'testchannel_wrapper' is added to custom repositories.
+19:56:57 INFO  : Result from executing command 'getProjects': testchannel_wrapper;testchannel_wrapper_2;testchannel_wrapper_3
+19:56:57 INFO  : Result from executing command 'getPlatforms': testchannel_wrapper_2|D:/work_directory/test/test_channel/testchannel_wrapper_2/export/testchannel_wrapper_2/testchannel_wrapper_2.xpfm;testchannel_wrapper_3|D:/work_directory/test/test_channel/testchannel_wrapper_3/export/testchannel_wrapper_3/testchannel_wrapper_3.xpfm;testchannel_wrapper|D:/work_directory/test/test_channel/testchannel_wrapper/export/testchannel_wrapper/testchannel_wrapper.xpfm;xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+19:56:58 INFO  : Checking for BSP changes to sync application flags for project 'hello_world'...
+12:22:19 DEBUG : Logs will be stored at 'D:/work_directory/test/test_channel/IDE.log'.
+12:22:21 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\work_directory\test\test_channel\temp_xsdb_launch_script.tcl
+12:22:24 INFO  : XSCT server has started successfully.
+12:22:24 INFO  : Successfully done setting XSCT server connection channel  
+12:22:24 INFO  : plnx-install-location is set to ''
+12:22:24 INFO  : Successfully done setting workspace for the tool. 
+12:22:26 INFO  : Registering command handlers for Vitis TCF services
+12:22:26 INFO  : Platform repository initialization has completed.
+12:22:27 INFO  : Successfully done query RDI_DATADIR 
+12:23:14 WARN  : An unexpected exception occurred in the module 'platform project logging'
+12:24:30 INFO  : Result from executing command 'getProjects': testchannel_wrapper;testchannel_wrapper_2;testchannel_wrapper_3
+12:24:30 INFO  : Result from executing command 'getPlatforms': testchannel_wrapper_2|D:/work_directory/test/test_channel/testchannel_wrapper_2/export/testchannel_wrapper_2/testchannel_wrapper_2.xpfm;testchannel_wrapper_3|D:/work_directory/test/test_channel/testchannel_wrapper_3/export/testchannel_wrapper_3/testchannel_wrapper_3.xpfm;xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+12:24:30 WARN  : An unexpected exception occurred in the module 'platform project logging'
+12:24:32 INFO  : Platform 'testchannel_wrapper' is added to custom repositories.
+12:25:30 INFO  : Platform 'testchannel_wrapper' is added to custom repositories.
+12:28:42 INFO  : Result from executing command 'getProjects': testchannel_wrapper;testchannel_wrapper_2;testchannel_wrapper_3
+12:28:42 INFO  : Result from executing command 'getPlatforms': testchannel_wrapper_2|D:/work_directory/test/test_channel/testchannel_wrapper_2/export/testchannel_wrapper_2/testchannel_wrapper_2.xpfm;testchannel_wrapper_3|D:/work_directory/test/test_channel/testchannel_wrapper_3/export/testchannel_wrapper_3/testchannel_wrapper_3.xpfm;testchannel_wrapper|D:/work_directory/test/test_channel/testchannel_wrapper/export/testchannel_wrapper/testchannel_wrapper.xpfm;xilinx_zcu102_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|D:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+12:28:44 INFO  : Checking for BSP changes to sync application flags for project 'hello_world'...
+12:34:12 INFO  : Checking for BSP changes to sync application flags for project 'hello_world'...

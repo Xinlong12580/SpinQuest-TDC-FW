@@ -1,0 +1,14 @@
+14:14:42 **** Incremental Build of configuration Debug for project hello_world_new_new_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 52134 D:/work_directory/test/test_channel/testchannel_wrapper_2/export/testchannel_wrapper_2/testchannel_wrapper_2.xpfm standalone_psu_cortexa53_0 D:/work_directory/test/test_channel/hello_world_new_new_system/Debug/system.bif
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+sdcard_gen --xpfm D:/work_directory/test/test_channel/testchannel_wrapper_2/export/testchannel_wrapper_2/testchannel_wrapper_2.xpfm --sys_config testchannel_wrapper_2 --bif D:/work_directory/test/test_channel/hello_world_new_new_system/Debug/system.bif --bitstream D:/work_directory/test/test_channel/hello_world_new_new/_ide/bitstream/testchannel_wrapper.bit --elf D:/work_directory/test/test_channel/hello_world_new_new/Debug/hello_world_new_new.elf,psu_cortexa53_0
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+creating BOOT.BIN using D:/work_directory/test/test_channel/hello_world_new_new/_ide/bitstream/testchannel_wrapper.bit
+Running D:/Xilinx/Vitis/2023.2/bin/bootgen -arch zynqmp -image D:/work_directory/test/test_channel/hello_world_new_new_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+14:14:50 Build Finished (took 7s.929ms)
+

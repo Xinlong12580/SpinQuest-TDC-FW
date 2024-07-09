@@ -1,0 +1,35 @@
+Nothing to build in platform 'testchannel_wrapper'
+
+12:34:12 **** Incremental Build of configuration Debug for project hello_world ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -ID:/work_directory/test/test_channel/testchannel_wrapper/export/testchannel_wrapper/sw/testchannel_wrapper/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:33:5: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+   33 |     usleep(10000);
+      |     ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello_world.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/work_directory/test/test_channel/testchannel_wrapper/export/testchannel_wrapper/sw/testchannel_wrapper/standalone_psu_cortexa53_0/bsplib/lib -o "hello_world.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello_world.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size hello_world.elf  |tee "hello_world.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  89380	   4728	  20820	 114928	  1c0f0	hello_world.elf
+'Finished building: hello_world.elf.size'
+' '
+12:34:15 **** Incremental Build of configuration Debug for project hello_world_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 51499 D:/work_directory/test/test_channel/testchannel_wrapper/export/testchannel_wrapper/testchannel_wrapper.xpfm standalone_psu_cortexa53_0 D:/work_directory/test/test_channel/hello_world_system/Debug/system.bif
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+sdcard_gen --xpfm D:/work_directory/test/test_channel/testchannel_wrapper/export/testchannel_wrapper/testchannel_wrapper.xpfm --sys_config testchannel_wrapper --bif D:/work_directory/test/test_channel/hello_world_system/Debug/system.bif --bitstream D:/work_directory/test/test_channel/hello_world/_ide/bitstream/testchannel_wrapper.bit --elf D:/work_directory/test/test_channel/hello_world/Debug/hello_world.elf,psu_cortexa53_0
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+creating BOOT.BIN using D:/work_directory/test/test_channel/hello_world/_ide/bitstream/testchannel_wrapper.bit
+Running D:/Xilinx/Vitis/2023.2/bin/bootgen -arch zynqmp -image D:/work_directory/test/test_channel/hello_world_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN

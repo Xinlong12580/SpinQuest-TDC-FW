@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xck26-sfvc784-2LV-c" LaunchTime="1720541396">
+  <File Type="ROUTE-PWR" Name="testbram_v3_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="testbram_v3_wrapper.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="testbram_v3_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="testbram_v3_wrapper_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="testbram_v3_wrapper_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="testbram_v3_wrapper.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="testbram_v3_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="testbram_v3_wrapper_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="testbram_v3_wrapper_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="testbram_v3_wrapper_opt.dcp"/>
+  <File Type="OPT-DRC" Name="testbram_v3_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="testbram_v3_wrapper.hwdef"/>
+  <File Type="PWROPT-DCP" Name="testbram_v3_wrapper_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="testbram_v3_wrapper_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="testbram_v3_wrapper_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="testbram_v3_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="testbram_v3_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="testbram_v3_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="testbram_v3_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="testbram_v3_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="testbram_v3_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="testbram_v3_wrapper_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="testbram_v3_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="testbram_v3_wrapper.bin"/>
+  <File Type="PLACE-TIMING" Name="testbram_v3_wrapper_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="testbram_v3_wrapper_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="testbram_v3_wrapper_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="testbram_v3_wrapper_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="testbram_v3_wrapper.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="testbram_v3_wrapper_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="testbram_v3_wrapper_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="testbram_v3_wrapper_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="testbram_v3_wrapper.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="testbram_v3_wrapper_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="testbram_v3_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="testbram_v3_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="testbram_v3_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="testbram_v3_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="testbram_v3_wrapper_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="testbram_v3_wrapper_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="testbram_v3_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="testbram_v3_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="testbram_v3_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="testbram_v3_wrapper_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="testbram_v3_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="testbram_v3_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="testbram_v3_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="testbram_v3_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="testbram_v3_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="testbram_v3_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="testbram_v3_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="testbram_v3_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="testbram_v3_wrapper_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="testbram_v3_wrapper_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="testbram_v3_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="testbram_v3_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="testbram_v3_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="testbram_v3_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="testbram_v3_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="testbram_v3_wrapper_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="testbram_v3_wrapper.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="testbram_v3_wrapper_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="testbram_v3_wrapper_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="testbram_v3_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="testbram_v3_wrapper_bd.bmm"/>
+  <File Type="PDI-FILE" Name="testbram_v3_wrapper.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="testbram_v3_wrapper_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="testbram_v3_wrapper_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="testbram_v3_wrapper.rcfi"/>
+  <File Type="CFI_FILE" Name="testbram_v3_wrapper.cfi"/>
+  <File Type="RNPI_FILE" Name="testbram_v3_wrapper.rnpi"/>
+  <File Type="NPI_FILE" Name="testbram_v3_wrapper.npi"/>
+  <File Type="RBD_FILE" Name="testbram_v3_wrapper.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="testbram_v3_wrapper.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="testbram_v3_wrapper.sysdef"/>
+  <File Type="BG-BGN" Name="testbram_v3_wrapper.bgn"/>
+  <File Type="BG-DRC" Name="testbram_v3_wrapper.drc"/>
+  <File Type="RDI-RDI" Name="testbram_v3_wrapper.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="testbram_v3_wrapper_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="testbram_v3_wrapper_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/new/channel_setter.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../testchannel/testchannel.srcs/sources_1/new/channel_setter.vhd"/>
+        <Attr Name="ImportTime" Val="1719938463"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Connector.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Inverter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TDC/Main_Counter/Main_Counter/Main_Counter.srcs/sources_1/new/Main_Counter.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../TDC/Main_Counter/Main_Counter/Main_Counter.srcs/sources_1/new/Main_Counter.vhd"/>
+        <Attr Name="ImportTime" Val="1719097841"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TDC/Eliminator/Eliminator/Eliminator.srcs/sources_1/imports/Eliminator_vivado.srcs/sources_1/new/Elimilator_HVSENSITIVE.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../TDC/Eliminator/Eliminator/Eliminator.srcs/sources_1/imports/Eliminator_vivado.srcs/sources_1/new/Elimilator_HVSENSITIVE.vhd"/>
+        <Attr Name="ImportTime" Val="1719100070"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/TDC/Encoder/Encoder/Encoder.srcs/sources_1/imports/Encoder.srcs/sources_1/new/Encoder.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../TDC/Encoder/Encoder/Encoder.srcs/sources_1/imports/Encoder.srcs/sources_1/new/Encoder.vhd"/>
+        <Attr Name="ImportTime" Val="1719089041"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/testbram_v3/testbram_v3.bd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../testchannel/testchannel.srcs/sources_1/bd/testbram_v3/testbram_v3.bd"/>
+        <Attr Name="ImportTime" Val="1719954436"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/testbram_v3/hdl/testbram_v3_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/bram_writter.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../testchannel/testchannel.srcs/sources_1/new/bram_writter.vhd"/>
+        <Attr Name="ImportTime" Val="1719953635"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/fifo_generator_0/fifo_generator_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../TDC/Pipe/Pipe/Pipe.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci"/>
+        <Attr Name="ImportTime" Val="1719154472"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="testbram_v3_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/channel_setter.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="testbram_v3_Inverter_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="testbram_v3_channel_setter_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="testbram_v3_connecter_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="testbram_v3_rst_ps8_0_99M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="testbram_v3_Eliminator_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="testbram_v3_Main_Counter_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="testbram_v3_axi_bram_ctrl_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="testbram_v3_zynq_ultra_ps_e_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="testbram_v3_Encoder_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="testbram_v3_Pipe_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="testbram_v3_axi_smc_0"/>
+</GenRun>
