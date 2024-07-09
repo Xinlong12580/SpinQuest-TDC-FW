@@ -1,0 +1,66 @@
+ /* PS7 UART (Zynq) is not initialized by this application, since
+ * bootrom/bsp configures it to baud rate 115200
+ *
+ * ------------------------------------------------
+ * | UART TYPE   BAUD RATE                        |
+ * ------------------------------------------------
+ *   uartns550   9600
+ *   uartlite    Configurable only in HW design
+ *   ps7_uart    115200 (configured by bootrom/bsp)
+ */
+
+#include <stdio.h>
+#include "xparameters.h"
+#include "platform.h"
+#include "xil_printf.h"
+#include "xil_io.h"
+#include "xgpio.h"
+
+int main()
+{
+	int temp;
+    init_platform();
+    //int addr=0xa0001000;
+    XGpio out;
+    XGpio_Initialize(&out, XPAR_AXI_GPIO_0_DEVICE_ID);
+    XGpio_SetDataDirection(&out, 1, 1);
+    print("Hello World\n\r");
+    print("Successfully ran Hello World application\n");
+
+    temp=Xil_In32(0xa0000000);
+    printf("Address %08x is %08x\n", 0xa0000000, temp);
+
+    XGpio_DiscreteWrite(&out, 1, 0);
+    usleep(10001);
+    XGpio_DiscreteWrite(&out, 1, 1);
+    usleep(10000);
+    XGpio_DiscreteWrite(&out, 1, 0);
+    usleep(10002);
+    XGpio_DiscreteWrite(&out, 1, 1);
+    usleep(10000);
+    XGpio_DiscreteWrite(&out, 1, 0);
+    usleep(10003);
+    XGpio_DiscreteWrite(&out, 1, 1);
+    usleep(10000);
+    XGpio_DiscreteWrite(&out, 1, 0);
+    usleep(10004);
+    XGpio_DiscreteWrite(&out, 1, 1);
+    usleep(10000);
+    XGpio_DiscreteWrite(&out, 1, 0);
+    usleep(10000);
+
+    temp=Xil_In32(0xa0000000);
+    printf("Address %08x is %08x\n", 0xa0000000, temp);
+    temp=Xil_In32(0xa0000004);
+    printf("Address %08x is %08x\n", 0xa0000004, temp);
+    temp=Xil_In32(0xa0000008);
+    printf("Address %08x is %08x\n", 0xa0000008, temp);
+    temp=Xil_In32(0xa000000c);
+    printf("Address %08x is %08x\n", 0xa000000c, temp);
+    temp=Xil_In32(0xa0000010);
+    printf("Address %08x is %08x\n", 0xa0000010, temp);
+
+    cleanup_platform();
+
+    return 0;
+}
