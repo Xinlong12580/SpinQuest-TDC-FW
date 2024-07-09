@@ -1,6 +1,6 @@
 -------------------------------------
 | Tool Version : Vivado v.2023.2
-| Date         : Tue Jul  9 12:15:53 2024
+| Date         : Tue Jul  9 15:14:21 2024
 | Host         : LAPTOP-UQD20HRI
 | Design       : design_1
 | Device       : xck26-sfvc784-2LV-C-

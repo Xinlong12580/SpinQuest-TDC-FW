@@ -17,13 +17,14 @@
       "rst_ps8_0_99M": "",
       "axi_bram_ctrl_0_bram": "",
       "axi_gpio_0": "",
-      "channel_setter_0": "",
-      "connecter_0": "",
       "Inverter_0": "",
+      "Encoder_0": "",
       "Main_Counter_0": "",
       "Eliminator_0": "",
-      "Encoder_0": "",
-      "Pipe_0": ""
+      "channel_setter_0": "",
+      "fifo_connecter_0": "",
+      "Pipe_0": "",
+      "tapped_delay_line_0": ""
     },
     "components": {
       "zynq_ultra_ps_e_0": {
@@ -1515,88 +1516,6 @@
           }
         }
       },
-      "channel_setter_0": {
-        "vlnv": "xilinx.com:module_ref:channel_setter:1.0",
-        "ip_revision": "1",
-        "xci_name": "testbram_v3_channel_setter_0_0",
-        "xci_path": "ip\\testbram_v3_channel_setter_0_0\\testbram_v3_channel_setter_0_0.xci",
-        "inst_hier_path": "channel_setter_0",
-        "reference_info": {
-          "ref_type": "hdl",
-          "ref_name": "channel_setter",
-          "boundary_crc": "0x0"
-        },
-        "ports": {
-          "hit_in": {
-            "direction": "I"
-          },
-          "hit": {
-            "direction": "O"
-          },
-          "rd": {
-            "direction": "O"
-          },
-          "blocking_window": {
-            "direction": "O",
-            "left": "9",
-            "right": "0"
-          },
-          "delay_chain": {
-            "direction": "O",
-            "left": "9",
-            "right": "0"
-          },
-          "update_mode": {
-            "direction": "O"
-          }
-        }
-      },
-      "connecter_0": {
-        "vlnv": "xilinx.com:module_ref:connecter:1.0",
-        "ip_revision": "1",
-        "xci_name": "testbram_v3_connecter_0_0",
-        "xci_path": "ip\\testbram_v3_connecter_0_0\\testbram_v3_connecter_0_0.xci",
-        "inst_hier_path": "connecter_0",
-        "reference_info": {
-          "ref_type": "hdl",
-          "ref_name": "connecter",
-          "boundary_crc": "0x0"
-        },
-        "ports": {
-          "empty": {
-            "direction": "I"
-          },
-          "in_data": {
-            "direction": "I",
-            "left": "31",
-            "right": "0",
-            "parameters": {
-              "POLARITY": {
-                "value": "ACTIVE_LOW",
-                "value_src": "const_prop"
-              }
-            }
-          },
-          "en_r": {
-            "direction": "O"
-          },
-          "en_w": {
-            "direction": "O",
-            "left": "3",
-            "right": "0"
-          },
-          "addr": {
-            "direction": "O",
-            "left": "31",
-            "right": "0"
-          },
-          "out_data": {
-            "direction": "O",
-            "left": "31",
-            "right": "0"
-          }
-        }
-      },
       "Inverter_0": {
         "vlnv": "xilinx.com:module_ref:Inverter:1.0",
         "ip_revision": "1",
@@ -1620,6 +1539,75 @@
           },
           "output_signal": {
             "direction": "O"
+          }
+        }
+      },
+      "Encoder_0": {
+        "vlnv": "xilinx.com:module_ref:Encoder:1.0",
+        "ip_revision": "1",
+        "xci_name": "testbram_v3_Encoder_0_0",
+        "xci_path": "ip\\testbram_v3_Encoder_0_0\\testbram_v3_Encoder_0_0.xci",
+        "inst_hier_path": "Encoder_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Encoder",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "FREQ_HZ": {
+                "value": "249997498",
+                "value_src": "user_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "testbram_v3_zynq_ultra_ps_e_0_0_pl_clk0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "raw_data": {
+            "direction": "I",
+            "left": "21",
+            "right": "0",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_LOW",
+                "value_src": "const_prop"
+              }
+            }
+          },
+          "data_in": {
+            "direction": "I"
+          },
+          "encoded_data": {
+            "direction": "O",
+            "left": "31",
+            "right": "0",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_LOW",
+                "value_src": "const_prop"
+              }
+            }
+          },
+          "data_out": {
+            "direction": "O"
+          },
+          "debug": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
           }
         }
       },
@@ -1740,20 +1728,59 @@
           }
         }
       },
-      "Encoder_0": {
-        "vlnv": "xilinx.com:module_ref:Encoder:1.0",
+      "channel_setter_0": {
+        "vlnv": "xilinx.com:module_ref:channel_setter:1.0",
         "ip_revision": "1",
-        "xci_name": "testbram_v3_Encoder_0_0",
-        "xci_path": "ip\\testbram_v3_Encoder_0_0\\testbram_v3_Encoder_0_0.xci",
-        "inst_hier_path": "Encoder_0",
+        "xci_name": "testbram_v3_channel_setter_0_0",
+        "xci_path": "ip\\testbram_v3_channel_setter_0_0\\testbram_v3_channel_setter_0_0.xci",
+        "inst_hier_path": "channel_setter_0",
         "reference_info": {
           "ref_type": "hdl",
-          "ref_name": "Encoder",
+          "ref_name": "channel_setter",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "hit_in": {
+            "direction": "I"
+          },
+          "hit": {
+            "direction": "O"
+          },
+          "rd": {
+            "direction": "O"
+          },
+          "blocking_window": {
+            "direction": "O",
+            "left": "9",
+            "right": "0"
+          },
+          "delay_chain": {
+            "direction": "O",
+            "left": "9",
+            "right": "0"
+          },
+          "update_mode": {
+            "direction": "O"
+          }
+        }
+      },
+      "fifo_connecter_0": {
+        "vlnv": "xilinx.com:module_ref:fifo_connecter:1.0",
+        "ip_revision": "1",
+        "xci_name": "testbram_v3_fifo_connecter_0_0",
+        "xci_path": "ip\\testbram_v3_fifo_connecter_0_0\\testbram_v3_fifo_connecter_0_0.xci",
+        "inst_hier_path": "fifo_connecter_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "fifo_connecter",
           "boundary_crc": "0x0"
         },
         "ports": {
           "rst": {
             "type": "rst",
+            "direction": "I"
+          },
+          "empty": {
             "direction": "I"
           },
           "clk": {
@@ -1774,22 +1801,8 @@
               }
             }
           },
-          "raw_data": {
+          "in_data": {
             "direction": "I",
-            "left": "21",
-            "right": "0",
-            "parameters": {
-              "POLARITY": {
-                "value": "ACTIVE_LOW",
-                "value_src": "const_prop"
-              }
-            }
-          },
-          "data_in": {
-            "direction": "I"
-          },
-          "encoded_data": {
-            "direction": "O",
             "left": "31",
             "right": "0",
             "parameters": {
@@ -1799,12 +1812,25 @@
               }
             }
           },
-          "data_out": {
+          "en_r": {
             "direction": "O"
           },
-          "debug": {
+          "en_w": {
             "direction": "O",
-            "left": "1",
+            "left": "3",
+            "right": "0"
+          },
+          "addr": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "rd": {
+            "direction": "O"
+          },
+          "out_data": {
+            "direction": "O",
+            "left": "31",
             "right": "0"
           }
         }
@@ -1815,6 +1841,49 @@
         "xci_name": "testbram_v3_Pipe_0_0",
         "xci_path": "ip\\testbram_v3_Pipe_0_0\\testbram_v3_Pipe_0_0.xci",
         "inst_hier_path": "Pipe_0"
+      },
+      "tapped_delay_line_0": {
+        "vlnv": "xilinx.com:module_ref:tapped_delay_line:1.0",
+        "ip_revision": "1",
+        "xci_name": "testbram_v3_tapped_delay_line_0_1",
+        "xci_path": "ip\\testbram_v3_tapped_delay_line_0_1\\testbram_v3_tapped_delay_line_0_1.xci",
+        "inst_hier_path": "tapped_delay_line_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "tapped_delay_line",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk_i": {
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "249997498",
+                "value_src": "user_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "default_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "testbram_v3_zynq_ultra_ps_e_0_0_pl_clk0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "reset_i": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "signal_i": {
+            "direction": "I"
+          },
+          "taps_o": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
       }
     },
     "interface_nets": {
@@ -1877,10 +1946,12 @@
       "Inverter_0_output": {
         "ports": [
           "Inverter_0/output_signal",
+          "Encoder_0/rst",
           "Main_Counter_0/rst",
           "Eliminator_0/rst",
-          "Encoder_0/rst",
-          "Pipe_0/srst"
+          "fifo_connecter_0/rst",
+          "Pipe_0/srst",
+          "tapped_delay_line_0/reset_i"
         ]
       },
       "Main_Counter_0_counter": {
@@ -1892,19 +1963,20 @@
       "Pipe_0_dout": {
         "ports": [
           "Pipe_0/dout",
-          "connecter_0/in_data"
+          "fifo_connecter_0/in_data"
         ]
       },
       "Pipe_0_empty": {
         "ports": [
           "Pipe_0/empty",
-          "connecter_0/empty"
+          "fifo_connecter_0/empty"
         ]
       },
       "axi_gpio_0_gpio_io_o": {
         "ports": [
           "axi_gpio_0/gpio_io_o",
-          "channel_setter_0/hit_in"
+          "channel_setter_0/hit_in",
+          "tapped_delay_line_0/signal_i"
         ]
       },
       "channel_setter_0_blocking_window": {
@@ -1913,52 +1985,40 @@
           "Eliminator_0/block_window"
         ]
       },
-      "channel_setter_0_delay_chain": {
-        "ports": [
-          "channel_setter_0/delay_chain",
-          "Eliminator_0/delay_chain"
-        ]
-      },
-      "channel_setter_0_hit": {
-        "ports": [
-          "channel_setter_0/hit",
-          "Eliminator_0/hit"
-        ]
-      },
-      "channel_setter_0_rd": {
-        "ports": [
-          "channel_setter_0/rd",
-          "Pipe_0/rd_en"
-        ]
-      },
       "channel_setter_0_update_mode": {
         "ports": [
           "channel_setter_0/update_mode",
           "Eliminator_0/update_mode"
         ]
       },
-      "connecter_0_addr": {
+      "fifo_connecter_0_addr": {
         "ports": [
-          "connecter_0/addr",
+          "fifo_connecter_0/addr",
           "axi_bram_ctrl_0_bram/addrb"
         ]
       },
-      "connecter_0_en_r": {
+      "fifo_connecter_0_en_r": {
         "ports": [
-          "connecter_0/en_r",
+          "fifo_connecter_0/en_r",
           "axi_bram_ctrl_0_bram/enb"
         ]
       },
-      "connecter_0_en_w": {
+      "fifo_connecter_0_en_w": {
         "ports": [
-          "connecter_0/en_w",
+          "fifo_connecter_0/en_w",
           "axi_bram_ctrl_0_bram/web"
         ]
       },
-      "connecter_0_out_data": {
+      "fifo_connecter_0_out_data": {
         "ports": [
-          "connecter_0/out_data",
+          "fifo_connecter_0/out_data",
           "axi_bram_ctrl_0_bram/dinb"
+        ]
+      },
+      "fifo_connecter_0_rd": {
+        "ports": [
+          "fifo_connecter_0/rd",
+          "Pipe_0/rd_en"
         ]
       },
       "rst_ps8_0_99M_peripheral_aresetn": {
@@ -1971,6 +2031,13 @@
           "Inverter_0/input_signal"
         ]
       },
+      "tapped_delay_line_0_taps_o": {
+        "ports": [
+          "tapped_delay_line_0/taps_o",
+          "Eliminator_0/delay_chain",
+          "Eliminator_0/hit"
+        ]
+      },
       "zynq_ultra_ps_e_0_pl_clk0": {
         "ports": [
           "zynq_ultra_ps_e_0/pl_clk0",
@@ -1980,10 +2047,12 @@
           "rst_ps8_0_99M/slowest_sync_clk",
           "axi_gpio_0/s_axi_aclk",
           "axi_bram_ctrl_0_bram/clkb",
-          "Eliminator_0/clk",
-          "Main_Counter_0/clk",
           "Encoder_0/clk",
-          "Pipe_0/clk"
+          "Main_Counter_0/clk",
+          "Eliminator_0/clk",
+          "fifo_connecter_0/clk",
+          "Pipe_0/clk",
+          "tapped_delay_line_0/clk_i"
         ]
       },
       "zynq_ultra_ps_e_0_pl_clk1": {

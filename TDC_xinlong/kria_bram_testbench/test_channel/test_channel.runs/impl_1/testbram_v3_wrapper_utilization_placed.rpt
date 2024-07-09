@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date         : Tue Jul  9 12:18:21 2024
+| Date         : Tue Jul  9 15:16:59 2024
 | Host         : LAPTOP-UQD20HRI running 64-bit major release  (build 9200)
 | Command      : report_utilization -file testbram_v3_wrapper_utilization_placed.rpt -pb testbram_v3_wrapper_utilization_placed.pb
 | Design       : testbram_v3_wrapper
@@ -33,15 +33,15 @@ Table of Contents
 +----------------------------+-------+-------+------------+-----------+-------+
 |          Site Type         |  Used | Fixed | Prohibited | Available | Util% |
 +----------------------------+-------+-------+------------+-----------+-------+
-| CLB LUTs                   |  9782 |     0 |          0 |    117120 |  8.35 |
-|   LUT as Logic             |  7478 |     0 |          0 |    117120 |  6.38 |
+| CLB LUTs                   |  9791 |     0 |          0 |    117120 |  8.36 |
+|   LUT as Logic             |  7487 |     0 |          0 |    117120 |  6.39 |
 |   LUT as Memory            |  2304 |     0 |          0 |     57600 |  4.00 |
 |     LUT as Distributed RAM |  1004 |     0 |            |           |       |
 |     LUT as Shift Register  |  1300 |     0 |            |           |       |
-| CLB Registers              | 12057 |     0 |          0 |    234240 |  5.15 |
-|   Register as Flip Flop    | 12057 |     0 |          0 |    234240 |  5.15 |
+| CLB Registers              | 12163 |     0 |          0 |    234240 |  5.19 |
+|   Register as Flip Flop    | 12163 |     0 |          0 |    234240 |  5.19 |
 |   Register as Latch        |     0 |     0 |          0 |    234240 |  0.00 |
-| CARRY8                     |     4 |     0 |          0 |     14640 |  0.03 |
+| CARRY8                     |    10 |     0 |          0 |     14640 |  0.07 |
 | F7 Muxes                   |     1 |     0 |          0 |     58560 | <0.01 |
 | F8 Muxes                   |     0 |     0 |          0 |     29280 |  0.00 |
 | F9 Muxes                   |     0 |     0 |          0 |     14640 |  0.00 |
@@ -63,8 +63,8 @@ Table of Contents
 | 0     |          Yes |           - |            - |
 | 0     |          Yes |           - |          Set |
 | 99    |          Yes |           - |        Reset |
-| 423   |          Yes |         Set |            - |
-| 11535 |          Yes |       Reset |            - |
+| 426   |          Yes |         Set |            - |
+| 11638 |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -74,13 +74,13 @@ Table of Contents
 +--------------------------------------------+-------+-------+------------+-----------+-------+
 |                  Site Type                 |  Used | Fixed | Prohibited | Available | Util% |
 +--------------------------------------------+-------+-------+------------+-----------+-------+
-| CLB                                        |  1794 |     0 |          0 |     14640 | 12.25 |
-|   CLBL                                     |   754 |     0 |            |           |       |
-|   CLBM                                     |  1040 |     0 |            |           |       |
-| LUT as Logic                               |  7478 |     0 |          0 |    117120 |  6.38 |
-|   using O5 output only                     |   351 |       |            |           |       |
-|   using O6 output only                     |  4403 |       |            |           |       |
-|   using O5 and O6                          |  2724 |       |            |           |       |
+| CLB                                        |  1797 |     0 |          0 |     14640 | 12.27 |
+|   CLBL                                     |   777 |     0 |            |           |       |
+|   CLBM                                     |  1020 |     0 |            |           |       |
+| LUT as Logic                               |  7487 |     0 |          0 |    117120 |  6.39 |
+|   using O5 output only                     |   353 |       |            |           |       |
+|   using O6 output only                     |  4411 |       |            |           |       |
+|   using O5 and O6                          |  2723 |       |            |           |       |
 | LUT as Memory                              |  2304 |     0 |          0 |     57600 |  4.00 |
 |   LUT as Distributed RAM                   |  1004 |     0 |            |           |       |
 |     using O5 output only                   |     0 |       |            |           |       |
@@ -90,12 +90,12 @@ Table of Contents
 |     using O5 output only                   |     0 |       |            |           |       |
 |     using O6 output only                   |  1300 |       |            |           |       |
 |     using O5 and O6                        |     0 |       |            |           |       |
-| CLB Registers                              | 12057 |     0 |          0 |    234240 |  5.15 |
-|   Register driven from within the CLB      |  8191 |       |            |           |       |
-|   Register driven from outside the CLB     |  3866 |       |            |           |       |
-|     LUT in front of the register is unused |  2376 |       |            |           |       |
-|     LUT in front of the register is used   |  1490 |       |            |           |       |
-| Unique Control Sets                        |   736 |       |          0 |     29280 |  2.51 |
+| CLB Registers                              | 12163 |     0 |          0 |    234240 |  5.19 |
+|   Register driven from within the CLB      |  8202 |       |            |           |       |
+|   Register driven from outside the CLB     |  3961 |       |            |           |       |
+|     LUT in front of the register is unused |  2522 |       |            |           |       |
+|     LUT in front of the register is used   |  1439 |       |            |           |       |
+| Unique Control Sets                        |   739 |       |          0 |     29280 |  2.52 |
 +--------------------------------------------+-------+-------+------------+-----------+-------+
 * * Note: Available Control Sets calculated as Slices * 2, Review the Control Sets Report for more information regarding control sets.
 
@@ -204,20 +204,20 @@ Table of Contents
 +----------+-------+---------------------+
 | Ref Name |  Used | Functional Category |
 +----------+-------+---------------------+
-| FDRE     | 11535 |            Register |
-| LUT3     |  2892 |                 CLB |
-| LUT6     |  2656 |                 CLB |
+| FDRE     | 11638 |            Register |
+| LUT3     |  2891 |                 CLB |
+| LUT6     |  2659 |                 CLB |
 | RAMD32   |  1750 |                 CLB |
-| LUT5     |  1725 |                 CLB |
-| LUT4     |  1679 |                 CLB |
-| LUT2     |   960 |                 CLB |
+| LUT5     |  1729 |                 CLB |
+| LUT4     |  1683 |                 CLB |
+| LUT2     |   955 |                 CLB |
 | SRLC32E  |   949 |                 CLB |
-| FDSE     |   423 |            Register |
+| FDSE     |   426 |            Register |
 | SRL16E   |   351 |                 CLB |
-| LUT1     |   290 |                 CLB |
+| LUT1     |   293 |                 CLB |
 | RAMS32   |   250 |                 CLB |
 | FDCE     |    99 |            Register |
-| CARRY8   |     4 |                 CLB |
+| CARRY8   |    10 |                 CLB |
 | RAMB36E2 |     2 |            BLOCKRAM |
 | BUFG_PS  |     2 |               Clock |
 | PS8      |     1 |            Advanced |
@@ -240,9 +240,9 @@ Table of Contents
 |              Ref Name              | Used |
 +------------------------------------+------+
 | testbram_v3_zynq_ultra_ps_e_0_0    |    1 |
+| testbram_v3_tapped_delay_line_0_1  |    1 |
 | testbram_v3_rst_ps8_0_99M_0        |    1 |
-| testbram_v3_connecter_0_0          |    1 |
-| testbram_v3_channel_setter_0_0     |    1 |
+| testbram_v3_fifo_connecter_0_0     |    1 |
 | testbram_v3_axi_smc_0              |    1 |
 | testbram_v3_axi_gpio_0_0           |    1 |
 | testbram_v3_axi_bram_ctrl_0_bram_0 |    1 |

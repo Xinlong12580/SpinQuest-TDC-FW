@@ -2,7 +2,7 @@
 --Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
---Date        : Tue Jul  9 12:36:16 2024
+--Date        : Tue Jul  9 14:35:27 2024
 --Host        : LAPTOP-UQD20HRI running 64-bit major release  (build 9200)
 --Command     : generate_target testbram_v3.bd
 --Design      : testbram_v3
@@ -14,7 +14,7 @@ library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
 entity testbram_v3 is
   attribute CORE_GENERATION_INFO : string;
-  attribute CORE_GENERATION_INFO of testbram_v3 : entity is "testbram_v3,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=testbram_v3,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=13,numReposBlks=13,numNonXlnxBlks=0,numHierBlks=0,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=6,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=3,da_bram_cntlr_cnt=1,da_zynq_ultra_ps_e_cnt=1,synth_mode=Hierarchical}";
+  attribute CORE_GENERATION_INFO of testbram_v3 : entity is "testbram_v3,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=testbram_v3,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=14,numReposBlks=14,numNonXlnxBlks=0,numHierBlks=0,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=7,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=3,da_bram_cntlr_cnt=1,da_zynq_ultra_ps_e_cnt=1,synth_mode=Hierarchical}";
   attribute HW_HANDOFF : string;
   attribute HW_HANDOFF of testbram_v3 : entity is "testbram_v3.hwdef";
 end testbram_v3;
@@ -349,32 +349,23 @@ architecture STRUCTURE of testbram_v3 is
     gpio_io_o : out STD_LOGIC_VECTOR ( 0 to 0 )
   );
   end component testbram_v3_axi_gpio_0_0;
-  component testbram_v3_channel_setter_0_0 is
-  port (
-    hit_in : in STD_LOGIC;
-    hit : out STD_LOGIC;
-    rd : out STD_LOGIC;
-    blocking_window : out STD_LOGIC_VECTOR ( 9 downto 0 );
-    delay_chain : out STD_LOGIC_VECTOR ( 9 downto 0 );
-    update_mode : out STD_LOGIC
-  );
-  end component testbram_v3_channel_setter_0_0;
-  component testbram_v3_connecter_0_0 is
-  port (
-    empty : in STD_LOGIC;
-    in_data : in STD_LOGIC_VECTOR ( 31 downto 0 );
-    en_r : out STD_LOGIC;
-    en_w : out STD_LOGIC_VECTOR ( 3 downto 0 );
-    addr : out STD_LOGIC_VECTOR ( 31 downto 0 );
-    out_data : out STD_LOGIC_VECTOR ( 31 downto 0 )
-  );
-  end component testbram_v3_connecter_0_0;
   component testbram_v3_Inverter_0_0 is
   port (
     input_signal : in STD_LOGIC;
     output_signal : out STD_LOGIC
   );
   end component testbram_v3_Inverter_0_0;
+  component testbram_v3_Encoder_0_0 is
+  port (
+    rst : in STD_LOGIC;
+    clk : in STD_LOGIC;
+    raw_data : in STD_LOGIC_VECTOR ( 21 downto 0 );
+    data_in : in STD_LOGIC;
+    encoded_data : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    data_out : out STD_LOGIC;
+    debug : out STD_LOGIC_VECTOR ( 1 downto 0 )
+  );
+  end component testbram_v3_Encoder_0_0;
   component testbram_v3_Main_Counter_0_0 is
   port (
     clk : in STD_LOGIC;
@@ -396,17 +387,29 @@ architecture STRUCTURE of testbram_v3 is
     state_out : out STD_LOGIC_VECTOR ( 1 downto 0 )
   );
   end component testbram_v3_Eliminator_0_0;
-  component testbram_v3_Encoder_0_0 is
+  component testbram_v3_channel_setter_0_0 is
+  port (
+    hit_in : in STD_LOGIC;
+    hit : out STD_LOGIC;
+    rd : out STD_LOGIC;
+    blocking_window : out STD_LOGIC_VECTOR ( 9 downto 0 );
+    delay_chain : out STD_LOGIC_VECTOR ( 9 downto 0 );
+    update_mode : out STD_LOGIC
+  );
+  end component testbram_v3_channel_setter_0_0;
+  component testbram_v3_fifo_connecter_0_0 is
   port (
     rst : in STD_LOGIC;
+    empty : in STD_LOGIC;
     clk : in STD_LOGIC;
-    raw_data : in STD_LOGIC_VECTOR ( 21 downto 0 );
-    data_in : in STD_LOGIC;
-    encoded_data : out STD_LOGIC_VECTOR ( 31 downto 0 );
-    data_out : out STD_LOGIC;
-    debug : out STD_LOGIC_VECTOR ( 1 downto 0 )
+    in_data : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    en_r : out STD_LOGIC;
+    en_w : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    addr : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    rd : out STD_LOGIC;
+    out_data : out STD_LOGIC_VECTOR ( 31 downto 0 )
   );
-  end component testbram_v3_Encoder_0_0;
+  end component testbram_v3_fifo_connecter_0_0;
   component testbram_v3_Pipe_0_0 is
   port (
     clk : in STD_LOGIC;
@@ -422,6 +425,14 @@ architecture STRUCTURE of testbram_v3 is
     wr_en : in STD_LOGIC
   );
   end component testbram_v3_Pipe_0_0;
+  component testbram_v3_tapped_delay_line_0_1 is
+  port (
+    clk_i : in STD_LOGIC;
+    reset_i : in STD_LOGIC;
+    signal_i : in STD_LOGIC;
+    taps_o : out STD_LOGIC_VECTOR ( 31 downto 0 )
+  );
+  end component testbram_v3_tapped_delay_line_0_1;
   signal Eliminator_0_data_out : STD_LOGIC;
   signal Eliminator_0_registered_data : STD_LOGIC_VECTOR ( 21 downto 0 );
   signal Encoder_0_data_out : STD_LOGIC;
@@ -487,15 +498,14 @@ architecture STRUCTURE of testbram_v3 is
   signal axi_smc_M01_AXI_WSTRB : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal axi_smc_M01_AXI_WVALID : STD_LOGIC;
   signal channel_setter_0_blocking_window : STD_LOGIC_VECTOR ( 9 downto 0 );
-  signal channel_setter_0_delay_chain : STD_LOGIC_VECTOR ( 9 downto 0 );
-  signal channel_setter_0_hit : STD_LOGIC;
-  signal channel_setter_0_rd : STD_LOGIC;
   signal channel_setter_0_update_mode : STD_LOGIC;
-  signal connecter_0_addr : STD_LOGIC_VECTOR ( 31 downto 0 );
-  signal connecter_0_en_r : STD_LOGIC;
-  signal connecter_0_en_w : STD_LOGIC_VECTOR ( 3 downto 0 );
-  signal connecter_0_out_data : STD_LOGIC_VECTOR ( 31 downto 0 );
+  signal fifo_connecter_0_addr : STD_LOGIC_VECTOR ( 31 downto 0 );
+  signal fifo_connecter_0_en_r : STD_LOGIC;
+  signal fifo_connecter_0_en_w : STD_LOGIC_VECTOR ( 3 downto 0 );
+  signal fifo_connecter_0_out_data : STD_LOGIC_VECTOR ( 31 downto 0 );
+  signal fifo_connecter_0_rd : STD_LOGIC;
   signal rst_ps8_0_99M_peripheral_aresetn : STD_LOGIC_VECTOR ( 0 to 0 );
+  signal tapped_delay_line_0_taps_o : STD_LOGIC_VECTOR ( 31 downto 0 );
   signal zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARADDR : STD_LOGIC_VECTOR ( 39 downto 0 );
   signal zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARBURST : STD_LOGIC_VECTOR ( 1 downto 0 );
   signal zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARCACHE : STD_LOGIC_VECTOR ( 3 downto 0 );
@@ -592,6 +602,9 @@ architecture STRUCTURE of testbram_v3 is
   signal NLW_axi_smc_M00_AXI_awuser_UNCONNECTED : STD_LOGIC_VECTOR ( 15 downto 0 );
   signal NLW_axi_smc_M01_AXI_arprot_UNCONNECTED : STD_LOGIC_VECTOR ( 2 downto 0 );
   signal NLW_axi_smc_M01_AXI_awprot_UNCONNECTED : STD_LOGIC_VECTOR ( 2 downto 0 );
+  signal NLW_channel_setter_0_hit_UNCONNECTED : STD_LOGIC;
+  signal NLW_channel_setter_0_rd_UNCONNECTED : STD_LOGIC;
+  signal NLW_channel_setter_0_delay_chain_UNCONNECTED : STD_LOGIC_VECTOR ( 9 downto 0 );
   signal NLW_rst_ps8_0_99M_mb_reset_UNCONNECTED : STD_LOGIC;
   signal NLW_rst_ps8_0_99M_bus_struct_reset_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
   signal NLW_rst_ps8_0_99M_interconnect_aresetn_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
@@ -603,8 +616,8 @@ Eliminator_0: component testbram_v3_Eliminator_0_0
       clk => zynq_ultra_ps_e_0_pl_clk0,
       coarse_counter(11 downto 0) => Main_Counter_0_counter(11 downto 0),
       data_out => Eliminator_0_data_out,
-      delay_chain(9 downto 0) => channel_setter_0_delay_chain(9 downto 0),
-      hit => channel_setter_0_hit,
+      delay_chain(9 downto 0) => tapped_delay_line_0_taps_o(9 downto 0),
+      hit => tapped_delay_line_0_taps_o(0),
       registered_data(21 downto 0) => Eliminator_0_registered_data(21 downto 0),
       rst => Inverter_0_output,
       state_out(1 downto 0) => NLW_Eliminator_0_state_out_UNCONNECTED(1 downto 0),
@@ -639,7 +652,7 @@ Pipe_0: component testbram_v3_Pipe_0_0
       dout(31 downto 0) => Pipe_0_dout(31 downto 0),
       empty => Pipe_0_empty,
       full => NLW_Pipe_0_full_UNCONNECTED,
-      rd_en => channel_setter_0_rd,
+      rd_en => fifo_connecter_0_rd,
       rd_rst_busy => NLW_Pipe_0_rd_rst_busy_UNCONNECTED,
       srst => Inverter_0_output,
       wr_en => Encoder_0_data_out,
@@ -692,21 +705,21 @@ axi_bram_ctrl_0_bram: component testbram_v3_axi_bram_ctrl_0_bram_0
      port map (
       addra(31 downto 13) => B"0000000000000000000",
       addra(12 downto 0) => axi_bram_ctrl_0_BRAM_PORTA_ADDR(12 downto 0),
-      addrb(31 downto 0) => connecter_0_addr(31 downto 0),
+      addrb(31 downto 0) => fifo_connecter_0_addr(31 downto 0),
       clka => axi_bram_ctrl_0_BRAM_PORTA_CLK,
       clkb => zynq_ultra_ps_e_0_pl_clk0,
       dina(31 downto 0) => axi_bram_ctrl_0_BRAM_PORTA_DIN(31 downto 0),
-      dinb(31 downto 0) => connecter_0_out_data(31 downto 0),
+      dinb(31 downto 0) => fifo_connecter_0_out_data(31 downto 0),
       douta(31 downto 0) => axi_bram_ctrl_0_BRAM_PORTA_DOUT(31 downto 0),
       doutb(31 downto 0) => NLW_axi_bram_ctrl_0_bram_doutb_UNCONNECTED(31 downto 0),
       ena => axi_bram_ctrl_0_BRAM_PORTA_EN,
-      enb => connecter_0_en_r,
+      enb => fifo_connecter_0_en_r,
       rsta => axi_bram_ctrl_0_BRAM_PORTA_RST,
       rsta_busy => NLW_axi_bram_ctrl_0_bram_rsta_busy_UNCONNECTED,
       rstb => rst_ps8_0_99M_peripheral_aresetn(0),
       rstb_busy => NLW_axi_bram_ctrl_0_bram_rstb_busy_UNCONNECTED,
       wea(3 downto 0) => axi_bram_ctrl_0_BRAM_PORTA_WE(3 downto 0),
-      web(3 downto 0) => connecter_0_en_w(3 downto 0)
+      web(3 downto 0) => fifo_connecter_0_en_w(3 downto 0)
     );
 axi_gpio_0: component testbram_v3_axi_gpio_0_0
      port map (
@@ -872,20 +885,23 @@ axi_smc: component testbram_v3_axi_smc_0
 channel_setter_0: component testbram_v3_channel_setter_0_0
      port map (
       blocking_window(9 downto 0) => channel_setter_0_blocking_window(9 downto 0),
-      delay_chain(9 downto 0) => channel_setter_0_delay_chain(9 downto 0),
-      hit => channel_setter_0_hit,
+      delay_chain(9 downto 0) => NLW_channel_setter_0_delay_chain_UNCONNECTED(9 downto 0),
+      hit => NLW_channel_setter_0_hit_UNCONNECTED,
       hit_in => axi_gpio_0_gpio_io_o(0),
-      rd => channel_setter_0_rd,
+      rd => NLW_channel_setter_0_rd_UNCONNECTED,
       update_mode => channel_setter_0_update_mode
     );
-connecter_0: component testbram_v3_connecter_0_0
+fifo_connecter_0: component testbram_v3_fifo_connecter_0_0
      port map (
-      addr(31 downto 0) => connecter_0_addr(31 downto 0),
+      addr(31 downto 0) => fifo_connecter_0_addr(31 downto 0),
+      clk => zynq_ultra_ps_e_0_pl_clk0,
       empty => Pipe_0_empty,
-      en_r => connecter_0_en_r,
-      en_w(3 downto 0) => connecter_0_en_w(3 downto 0),
+      en_r => fifo_connecter_0_en_r,
+      en_w(3 downto 0) => fifo_connecter_0_en_w(3 downto 0),
       in_data(31 downto 0) => Pipe_0_dout(31 downto 0),
-      out_data(31 downto 0) => connecter_0_out_data(31 downto 0)
+      out_data(31 downto 0) => fifo_connecter_0_out_data(31 downto 0),
+      rd => fifo_connecter_0_rd,
+      rst => Inverter_0_output
     );
 rst_ps8_0_99M: component testbram_v3_rst_ps8_0_99M_0
      port map (
@@ -899,6 +915,13 @@ rst_ps8_0_99M: component testbram_v3_rst_ps8_0_99M_0
       peripheral_aresetn(0) => rst_ps8_0_99M_peripheral_aresetn(0),
       peripheral_reset(0) => NLW_rst_ps8_0_99M_peripheral_reset_UNCONNECTED(0),
       slowest_sync_clk => zynq_ultra_ps_e_0_pl_clk0
+    );
+tapped_delay_line_0: component testbram_v3_tapped_delay_line_0_1
+     port map (
+      clk_i => zynq_ultra_ps_e_0_pl_clk0,
+      reset_i => rst_ps8_0_99M_peripheral_aresetn(0),
+      signal_i => axi_gpio_0_gpio_io_o(0),
+      taps_o(31 downto 0) => tapped_delay_line_0_taps_o(31 downto 0)
     );
 zynq_ultra_ps_e_0: component testbram_v3_zynq_ultra_ps_e_0_0
      port map (

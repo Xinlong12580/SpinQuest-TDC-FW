@@ -33,7 +33,7 @@ use IEEE.NUMERIC_STD.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity my_connecter is
+entity fifo_connecter is
 port (
     rst: in std_logic :='0';
     empty: in std_logic :='0';
@@ -45,9 +45,9 @@ port (
     rd: out std_logic:='0';
     out_data: out std_logic_vector(31 DOWNTO 0):=(others=>'0')
 );
-end my_connecter;
+end fifo_connecter;
 
-architecture Behavioral of my_connecter is
+architecture Behavioral of fifo_connecter is
 type states is (IDLE, READING);
 signal counter:integer range 7 DOWNTO 0:=7;
 signal state:states:=IDLE;

@@ -897,3 +897,311 @@ selectButton("OptionPane.button", "OK"); // JButton (OptionPane.button)
 // TclEventType: RUN_STEP_COMPLETED
 // Elapsed Time for: 'L.f': 41m:29s
 // Elapsed Time for: 'L.f': 41m:33s
+// Elapsed time: 384 seconds
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /connecter_0]"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, my_connecter(Behavioral) (bram_writter.vhd)]", 10, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, my_connecter(Behavioral) (bram_writter.vhd)]", 10, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testbram_v3_wrapper(STRUCTURE) (testbram_v3_wrapper.vhd)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testbram_v3_wrapper(STRUCTURE) (testbram_v3_wrapper.vhd)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testbram_v3_wrapper(STRUCTURE) (testbram_v3_wrapper.vhd)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testbram_v3_wrapper(STRUCTURE) (testbram_v3_wrapper.vhd), testbram_v3_i : testbram_v3 (testbram_v3.bd)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testbram_v3_wrapper(STRUCTURE) (testbram_v3_wrapper.vhd), testbram_v3_i : testbram_v3 (testbram_v3.bd)]", 2, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {D:/work_directory/test/test_channel/test_channel.srcs/sources_1/bd/testbram_v3/testbram_v3.bd} 
+dismissDialog("Open Block Design"); // bq (Open Block Design Progress)
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main_Counter(Behavioral) (Main_Counter.vhd)]", 6, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed time: 59 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, my_connecter(Behavioral) (bram_writter.vhd)]", 10, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, my_connecter(Behavioral) (bram_writter.vhd)]", 10, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 23 seconds
+selectCodeEditor("bram_writter.vhd", 227, 243); // ad (bram_writter.vhd)
+// Elapsed time: 39 seconds
+selectCodeEditor("bram_writter.vhd", 163, 260); // ad (bram_writter.vhd)
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testbram_v3_wrapper(STRUCTURE) (testbram_v3_wrapper.vhd)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+// Elapsed time: 51 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, connecter(Behavioral) (Connector.vhd)]", 8, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed time: 25 seconds
+selectCodeEditor("bram_writter.vhd", 87, 204); // ad (bram_writter.vhd)
+selectCodeEditor("bram_writter.vhd", 56, 127); // ad (bram_writter.vhd)
+selectCodeEditor("bram_writter.vhd", 269, 178); // ad (bram_writter.vhd)
+// Elapsed time: 198 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, my_connecter(Behavioral) (bram_writter.vhd)]", 10, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, my_connecter(Behavioral) (bram_writter.vhd)]", 10, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenuItem(PAResourceOtoP.Project_AUTOMATIC_UPDATE_MANUAL_COMPILE_ORDER, "Automatic Update, Manual Compile Order"); // ac (PAResourceOtoP.Project_AUTOMATIC_UPDATE_MANUAL_COMPILE_ORDER, Automatic Update, Manual Compile Order)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: SRC_MGMT_MODE_CHANGE
+// Tcl Message: set_property source_mgmt_mode DisplayOnly [current_project] 
+// Elapsed Time for: 'L.f': 55m:07s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, my_connecter(Behavioral) (bram_writter.vhd)]", 10, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, my_connecter(Behavioral) (bram_writter.vhd)]", 10, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectCodeEditor("bram_writter.vhd", 326, 60); // ad (bram_writter.vhd)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testbram_v3_wrapper(STRUCTURE) (testbram_v3_wrapper.vhd), testbram_v3_i : testbram_v3 (testbram_v3.bd)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testbram_v3_wrapper(STRUCTURE) (testbram_v3_wrapper.vhd), testbram_v3_i : testbram_v3 (testbram_v3.bd)]", 2, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {D:/work_directory/test/test_channel/test_channel.srcs/sources_1/bd/testbram_v3/testbram_v3.bd} 
+dismissDialog("Open Block Design"); // bq (Open Block Design Progress)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 240, 422, 978, 626, false, false, false, true, false); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // al (PAResourceQtoS.SystemBuilderView_PINNING, Pinning)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // al (PAResourceQtoS.SystemBuilderView_PINNING, Pinning)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_MODULE, "Add Module..."); // ao (PAResourceQtoS.SystemBuilderMenu_ADD_MODULE, Add Module...)
+// TclEventType: SRC_MGMT_MODE_CHANGE
+// HOptionPane Warning: 'Module references are still updating. Please try again after Sources | Hierarchy view is up-to-date. (Add Module)'
+selectButton("OptionPane.button", "OK"); // JButton (OptionPane.button)
+// Tcl Message: set_property source_mgmt_mode All [current_project] 
+selectButton("OptionPane.button", "OK"); // JButton (OptionPane.button)
+// [GUI Memory]: 272 MB (+13149kb) [00:56:24]
+// Elapsed Time for: 'L.f': 55m:45s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 55m:52s
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, my_connecter(Behavioral) (bram_writter.vhd)]", 11, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, my_connecter(Behavioral) (bram_writter.vhd)]", 11, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed Time for: 'L.f': 55m:53s
+// Elapsed Time for: 'L.f': 55m:59s
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed Time for: 'L.f': 56m:07s
+// Elapsed time: 11 seconds
+selectCodeEditor("bram_writter.vhd", 176, 257); // ad (bram_writter.vhd)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testbram_v3_wrapper(STRUCTURE) (testbram_v3_wrapper.vhd), testbram_v3_i : testbram_v3 (testbram_v3.bd)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testbram_v3_wrapper(STRUCTURE) (testbram_v3_wrapper.vhd), testbram_v3_i : testbram_v3 (testbram_v3.bd)]", 2, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {D:/work_directory/test/test_channel/test_channel.srcs/sources_1/bd/testbram_v3/testbram_v3.bd} 
+dismissDialog("Open Block Design"); // bq (Open Block Design Progress)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 381, 348, 978, 626, false, false, false, true, false); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // al (PAResourceQtoS.SystemBuilderView_PINNING, Pinning)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_MODULE, "Add Module..."); // ao (PAResourceQtoS.SystemBuilderMenu_ADD_MODULE, Add Module...)
+selectList(PAResourceQtoS.RSBAddModuleDialog_MODULE_LIST, "my_connecter(Behavioral) (bram_writter.vhd)", 6); // cd (PAResourceQtoS.RSBAddModuleDialog_MODULE_LIST)
+selectList(PAResourceQtoS.RSBAddModuleDialog_MODULE_LIST, "my_connecter(Behavioral) (bram_writter.vhd)", 6); // cd (PAResourceQtoS.RSBAddModuleDialog_MODULE_LIST)
+selectList(PAResourceQtoS.RSBAddModuleDialog_MODULE_LIST, "my_connecter(Behavioral) (bram_writter.vhd)", 6, false, false, false, false, true); // cd (PAResourceQtoS.RSBAddModuleDialog_MODULE_LIST) - Double Click
+dismissDialog("Add Module"); // ca (dialog8)
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: create_bd_cell -type module -reference my_connecter my_connecter_0 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+dismissDialog("Add Module"); // bq (Add Module Progress)
+// Elapsed Time for: 'L.f': 56m:29s
+// Elapsed Time for: 'L.f': 56m:33s
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /my_connecter_0]"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells my_connecter_0] 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "bram_writter.vhd", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("bram_writter.vhd", 237, 277); // ad (bram_writter.vhd)
+// Elapsed Time for: 'L.f': 56m:37s
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : <D:\work_directory\test\test_channel\test_channel.srcs\sources_1\bd\testbram_v3\testbram_v3.bd>  Wrote  : <D:/work_directory/test/test_channel/test_channel.srcs/sources_1/bd/testbram_v3/ui/bd_108fa54e.ui>  
+// TclEventType: RSB_SAVE_DIAGRAM
+dismissDialog("Save Design"); // bq (Save Design Progress)
+// Elapsed Time for: 'L.f': 56m:39s
+// Elapsed Time for: 'L.f': 56m:41s
+selectCodeEditor("bram_writter.vhd", 283, 306); // ad (bram_writter.vhd)
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 56m:47s
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_CHANGED_MODULES, "Refresh Changed Modules"); // g (PAResourceOtoP.PlanAheadTab_REFRESH_CHANGED_MODULES)
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: update_module_reference testbram_v3_my_connecter_0_0 
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: ERROR: [filemgmt 56-587] Failed to resolve reference. Nothing was found in the project to match the name my_connecter Try changing the compile order from manual to automatic.  
+// Tcl Message: ERROR: [Common 17-39] 'update_module_reference' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'update_module_reference' failed due to earlier errors.  
+dismissDialog("Refresh IP Catalog"); // bq (Refresh IP Catalog Progress)
+// Elapsed Time for: 'L.f': 56m:53s
+// Elapsed time: 27 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // a (dialog9)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testbram_v3_wrapper(STRUCTURE) (testbram_v3_wrapper.vhd), testbram_v3_i : testbram_v3 (testbram_v3.bd)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, testbram_v3_wrapper(STRUCTURE) (testbram_v3_wrapper.vhd), testbram_v3_i : testbram_v3 (testbram_v3.bd)]", 2, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {D:/work_directory/test/test_channel/test_channel.srcs/sources_1/bd/testbram_v3/testbram_v3.bd} 
+dismissDialog("Open Block Design"); // bq (Open Block Design Progress)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 449, 460, 978, 626, false, false, false, true, false); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_MODULE, "Add Module..."); // ao (PAResourceQtoS.SystemBuilderMenu_ADD_MODULE, Add Module...)
+selectList(PAResourceQtoS.RSBAddModuleDialog_MODULE_LIST, "fifo_connecter(Behavioral) (bram_writter.vhd)", 4); // cd (PAResourceQtoS.RSBAddModuleDialog_MODULE_LIST)
+selectList(PAResourceQtoS.RSBAddModuleDialog_MODULE_LIST, "fifo_connecter(Behavioral) (bram_writter.vhd)", 4, false, false, false, false, true); // cd (PAResourceQtoS.RSBAddModuleDialog_MODULE_LIST) - Double Click
+dismissDialog("Add Module"); // ca (dialog10)
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: create_bd_cell -type module -reference fifo_connecter fifo_connecter_0 
+// Tcl Message: INFO: [IP_Flow 19-5107] Inferred bus interface 'rst' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository). INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository). INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'. 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+dismissDialog("Add Module"); // bq (Add Module Progress)
+// Elapsed Time for: 'L.f': 57m:37s
+// Elapsed Time for: 'L.f': 57m:39s
+// Elapsed time: 30 seconds
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /connecter_0]"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_DELETE
+// Tcl Message: delete_bd_objs [get_bd_nets Pipe_0_empty] [get_bd_nets Pipe_0_dout] [get_bd_nets connecter_0_en_r] [get_bd_nets connecter_0_en_w] [get_bd_nets connecter_0_addr] [get_bd_nets connecter_0_out_data] [get_bd_cells connecter_0] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// Elapsed Time for: 'L.f': 58m:09s
+// Tcl Command: 'set_property location {6.5 1118 263} [get_bd_cells fifo_connecter_0]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {6.5 1118 263} [get_bd_cells fifo_connecter_0] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 58m:12s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 58m:13s
+// Tcl Command: 'set_property location {8.5 1663 -67} [get_bd_cells fifo_connecter_0]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {8.5 1663 -67} [get_bd_cells fifo_connecter_0] 
+// Elapsed Time for: 'L.f': 58m:19s
+// TclEventType: RSB_CONNECTION_CHANGE
+// Elapsed time: 22 seconds
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_nets /Inverter_0_output]"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Tcl Message: connect_bd_net [get_bd_pins fifo_connecter_0/rst] [get_bd_pins Inverter_0/output_signal] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins fifo_connecter_0/empty] [get_bd_pins Pipe_0/empty] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins fifo_connecter_0/clk] [get_bd_pins zynq_ultra_ps_e_0/pl_clk0] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins fifo_connecter_0/in_data] [get_bd_pins Pipe_0/dout] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins fifo_connecter_0/en_r] [get_bd_pins axi_bram_ctrl_0_bram/enb] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins fifo_connecter_0/en_w] [get_bd_pins axi_bram_ctrl_0_bram/web] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins fifo_connecter_0/addr] [get_bd_pins axi_bram_ctrl_0_bram/addrb] 
+// Elapsed time: 59 seconds
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_nets /channel_setter_0_rd]"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs [get_bd_nets channel_setter_0_rd] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins Pipe_0/rd_en] [get_bd_pins fifo_connecter_0/rd] 
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_pins /fifo_connecter_0/rd]"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins fifo_connecter_0/out_data] [get_bd_pins axi_bram_ctrl_0_bram/dinb] 
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /axi_bram_ctrl_0_bram]"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // fS (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Generate Block Design]", 8, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_RSB_DESIGN
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY)
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: generate_target all [get_files  D:/work_directory/test/test_channel/test_channel.srcs/sources_1/bd/testbram_v3/testbram_v3.bd] 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// HMemoryUtils.trashcanNow. Engine heap size: 1,963 MB. GUI used memory: 166 MB. Current time: 7/9/24, 12:56:57 PM EDT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: INFO: [BD 5-943] Reserving offset range <0xA000_0000 [ 8K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M00_AXI'. This will be used by smartconnect on path for routing. INFO: [BD 5-943] Reserving offset range <0xA001_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M01_AXI'. This will be used by smartconnect on path for routing. INFO: [xilinx.com:ip:smartconnect:1.0-1] testbram_v3_axi_smc_0: SmartConnect testbram_v3_axi_smc_0 is in High-performance Mode. 
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI 
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: create_bd_cell: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 2342.398 ; gain = 0.000 
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: create_bd_cell: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2342.398 ; gain = 0.000 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,963 MB. GUI used memory: 167 MB. Current time: 7/9/24, 12:57:27 PM EDT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: xit::source_ipfile: Time (s): cpu = 00:00:33 ; elapsed = 00:00:30 . Memory (MB): peak = 2342.398 ; gain = 0.000 
+// Tcl Message: xit::source_ipfile: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2342.398 ; gain = 0.000 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <D:\work_directory\test\test_channel\test_channel.srcs\sources_1\bd\testbram_v3\testbram_v3.bd>  Wrote  : <D:/work_directory/test/test_channel/test_channel.srcs/sources_1/bd/testbram_v3/ui/bd_108fa54e.ui>  
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: VHDL Output written to : d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/synth/testbram_v3.vhd 
+// Tcl Message: VHDL Output written to : d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/sim/testbram_v3.vhd VHDL Output written to : d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/hdl/testbram_v3_wrapper.vhd 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/work_directory/TDC/IP'. 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// HMemoryUtils.trashcanNow. Engine heap size: 1,963 MB. GUI used memory: 166 MB. Current time: 7/9/24, 12:57:57 PM EDT
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: Exporting to file d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/ip/testbram_v3_axi_smc_0/bd_0/hw_handoff/testbram_v3_axi_smc_0.hwh Generated Hardware Definition File d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/ip/testbram_v3_axi_smc_0/bd_0/synth/testbram_v3_axi_smc_0.hwdef 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_smc . 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block fifo_connecter_0 . 
+// Tcl Message: Exporting to file d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/hw_handoff/testbram_v3.hwh Generated Hardware Definition File d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/synth/testbram_v3.hwdef 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: generate_target: Time (s): cpu = 00:02:27 ; elapsed = 00:02:13 . Memory (MB): peak = 2342.398 ; gain = 0.000 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all testbram_v3_axi_smc_0] } 
+// Tcl Message: INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: testbram_v3_axi_smc_0 INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 0cf3a8d0623672cb to dir: d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/ip/testbram_v3_axi_smc_0 
+// Tcl Message: INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/work_directory/test/test_channel/test_channel.cache/ip/2023.2/0/c/0cf3a8d0623672cb/testbram_v3_axi_smc_0.dcp to d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/ip/testbram_v3_axi_smc_0/testbram_v3_axi_smc_0.dcp. INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/ip/testbram_v3_axi_smc_0/testbram_v3_axi_smc_0.dcp 
+// Tcl Message: INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/work_directory/test/test_channel/test_channel.cache/ip/2023.2/0/c/0cf3a8d0623672cb/testbram_v3_axi_smc_0_sim_netlist.v to d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/ip/testbram_v3_axi_smc_0/testbram_v3_axi_smc_0_sim_netlist.v. INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/ip/testbram_v3_axi_smc_0/testbram_v3_axi_smc_0_sim_netlist.v 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,963 MB. GUI used memory: 167 MB. Current time: 7/9/24, 12:58:57 PM EDT
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP testbram_v3_axi_smc_0, cache-ID = 0cf3a8d0623672cb; cache size = 93.214 MB. 
+// TclEventType: OOC_IP_CACHE_USED
+// Tcl Message: config_ip_cache: Time (s): cpu = 00:00:40 ; elapsed = 00:00:35 . Memory (MB): peak = 2357.941 ; gain = 15.543 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all testbram_v3_fifo_connecter_0_0] } 
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: testbram_v3_fifo_connecter_0_0 
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1961 ms.
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1474 ms. Increasing delay to 4422 ms.
+// Tcl Message: export_ip_user_files -of_objects [get_files D:/work_directory/test/test_channel/test_channel.srcs/sources_1/bd/testbram_v3/testbram_v3.bd] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] D:/work_directory/test/test_channel/test_channel.srcs/sources_1/bd/testbram_v3/testbram_v3.bd] 
+// TclEventType: RUN_ADD

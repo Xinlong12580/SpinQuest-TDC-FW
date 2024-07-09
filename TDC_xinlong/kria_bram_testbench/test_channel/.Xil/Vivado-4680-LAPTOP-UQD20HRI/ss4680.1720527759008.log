@@ -1,0 +1,31 @@
+srcscan starts
+=============== Using vdb files for VHDL std libs ===========
+INFO: VHDL library search path for library "std" is now "D:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/std" (VHDL-1505)
+INFO: VHDL library search path for library "synopsys" is now "D:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/synopsys" (VHDL-1505)
+INFO: VHDL library search path for library "ieee" is now "D:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/ieee" (VHDL-1505)
+INFO: VHDL library search path for library "unimacro" is now "D:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/unimacro" (VHDL-1505)
+INFO: VHDL library search path for library "unisim" is now "D:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/unisim" (VHDL-1505)
+INFO: VHDL library search path for library "vl" is now "D:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/vl" (VHDL-1505)
+INFO: VHDL library search path for library "xpm" is now "D:/Xilinx/Vivado/2023.2/data/precomp_hsv/vhdl/xpm" (VHDL-1505)
+-- Analyzing VHDL file "d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/synth/testbram_v3.vhd" into library xil_defaultlib (VHDL-9003)
+INFO: analyzing entity 'testbram_v3' (VHDL-1012)
+INFO: analyzing architecture 'STRUCTURE' of entity 'testbram_v3' (VHDL-9006)
+Listing tops:
+VHDLTop: library:xil_defaultlib entity:testbram_v3 arch:
+VHDLTop: library:xil_defaultlib entity:testbram_v3 arch:
+END of tops
+d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/synth/testbram_v3.vhd(15): INFO: processing 'testbram_v3_default(STRUCTURE)' (VHDL-1067)
+d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/synth/testbram_v3.vhd(604): WARNING: 'testbram_v3_eliminator_0_0' remains a black box since it has no binding entity (VHDL-1250)
+d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/synth/testbram_v3.vhd(617): WARNING: 'testbram_v3_encoder_0_0' remains a black box since it has no binding entity (VHDL-1250)
+d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/synth/testbram_v3.vhd(627): WARNING: 'testbram_v3_inverter_0_0' remains a black box since it has no binding entity (VHDL-1250)
+d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/synth/testbram_v3.vhd(632): WARNING: 'testbram_v3_main_counter_0_0' remains a black box since it has no binding entity (VHDL-1250)
+d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/synth/testbram_v3.vhd(638): WARNING: 'testbram_v3_pipe_0_0' remains a black box since it has no binding entity (VHDL-1250)
+d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/synth/testbram_v3.vhd(652): WARNING: 'testbram_v3_axi_bram_ctrl_0_0' remains a black box since it has no binding entity (VHDL-1250)
+d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/synth/testbram_v3.vhd(695): WARNING: 'testbram_v3_axi_bram_ctrl_0_bram_0' remains a black box since it has no binding entity (VHDL-1250)
+d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/synth/testbram_v3.vhd(715): WARNING: 'testbram_v3_axi_gpio_0_0' remains a black box since it has no binding entity (VHDL-1250)
+d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/synth/testbram_v3.vhd(738): WARNING: 'testbram_v3_axi_smc_0' remains a black box since it has no binding entity (VHDL-1250)
+d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/synth/testbram_v3.vhd(876): WARNING: 'testbram_v3_channel_setter_0_0' remains a black box since it has no binding entity (VHDL-1250)
+d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/synth/testbram_v3.vhd(885): WARNING: 'testbram_v3_fifo_connecter_0_0' remains a black box since it has no binding entity (VHDL-1250)
+d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/synth/testbram_v3.vhd(897): WARNING: 'testbram_v3_rst_ps8_0_99m_0' remains a black box since it has no binding entity (VHDL-1250)
+d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/synth/testbram_v3.vhd(910): WARNING: 'testbram_v3_zynq_ultra_ps_e_0_0' remains a black box since it has no binding entity (VHDL-1250)
+srcscan exits with return value 0

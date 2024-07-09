@@ -25,9 +25,6 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==testbram_v3
 # IP: bd/testbram_v3/ip/testbram_v3_channel_setter_0_0/testbram_v3_channel_setter_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==testbram_v3_channel_setter_0_0 || ORIG_REF_NAME==testbram_v3_channel_setter_0_0} -quiet] -quiet
 
-# IP: bd/testbram_v3/ip/testbram_v3_connecter_0_0/testbram_v3_connecter_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==testbram_v3_connecter_0_0 || ORIG_REF_NAME==testbram_v3_connecter_0_0} -quiet] -quiet
-
 # IP: bd/testbram_v3/ip/testbram_v3_Inverter_0_0/testbram_v3_Inverter_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==testbram_v3_Inverter_0_0 || ORIG_REF_NAME==testbram_v3_Inverter_0_0} -quiet] -quiet
 
@@ -42,5 +39,11 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==testbram_v3
 
 # IP: bd/testbram_v3/ip/testbram_v3_Pipe_0_0/testbram_v3_Pipe_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==testbram_v3_Pipe_0_0 || ORIG_REF_NAME==testbram_v3_Pipe_0_0} -quiet] -quiet
+
+# IP: bd/testbram_v3/ip/testbram_v3_fifo_connecter_0_0/testbram_v3_fifo_connecter_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==testbram_v3_fifo_connecter_0_0 || ORIG_REF_NAME==testbram_v3_fifo_connecter_0_0} -quiet] -quiet
+
+# IP: bd/testbram_v3/ip/testbram_v3_tapped_delay_line_0_1/testbram_v3_tapped_delay_line_0_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==testbram_v3_tapped_delay_line_0_1 || ORIG_REF_NAME==testbram_v3_tapped_delay_line_0_1} -quiet] -quiet
 
 # XDC: d:/work_directory/test/test_channel/test_channel.gen/sources_1/bd/testbram_v3/testbram_v3_ooc.xdc
